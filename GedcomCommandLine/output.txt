@@ -1,0 +1,345 @@
+--> 0 NOTE dates after now
+<-- 0|NOTE|Y|dates after now
+--> 1 SOUR Family Echo
+<-- 1|SOUR|N|Family Echo
+--> 2 WWW http://www.familyecho.com
+Didnt Expected a date tag
+--> 0 bi00 INDI
+<-- 0|INDI|Y|bi00
+--> 1 NAME Jimmy /Conners/
+<-- 1|NAME|Y|Jimmy /Conners/
+--> 0 NOTE Praneeth Gubba
+<-- 0|NOTE|Y|Praneeth Gubba
+--> 0 HEAD BeginningOfData
+<-- 0|HEAD|Y|
+--> 0 @I222448906743@ INDI
+<-- 0|INDI|Y|@I222448906743@
+--> 1 NAME sam /raud/
+<-- 1|NAME|Y|sam /raud/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 FAMS @F1@
+<-- 1|FAMS|Y|@F1@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 08 09 1972
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 04 30 2021
+--> 0 @I222448906745@ INDI
+<-- 0|INDI|Y|@I222448906745@
+--> 1 NAME maxxy /raud/
+<-- 1|NAME|Y|maxxy /raud/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 FAMS @F1@
+<-- 1|FAMS|Y|@F1@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 12 18 1978
+--> 0 @I222448907013@ INDI
+<-- 0|INDI|Y|@I222448907013@
+--> 1 NAME porter /raud/
+<-- 1|NAME|Y|porter /raud/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 FAMC @F1@
+<-- 1|FAMC|Y|@F1@
+--> 1 FAMS @F4@
+<-- 1|FAMS|Y|@F4@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 06 30 1997
+--> 0 @I222448907057@ INDI
+<-- 0|INDI|Y|@I222448907057@
+--> 1 NAME marinda /raud/
+<-- 1|NAME|Y|marinda /raud/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 FAMC @F2@
+<-- 1|FAMC|Y|@F2@
+--> 1 FAMS @F4@
+<-- 1|FAMS|Y|@F4@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 02 22 1997
+--> 0 @I222448907189@ INDI
+<-- 0|INDI|Y|@I222448907189@
+--> 1 NAME rolie /raud/
+<-- 1|NAME|Y|rolie /raud/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 FAMC @F4@
+<-- 1|FAMC|Y|@F4@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 03 01 2021
+--> 0 @I222448907396@ INDI
+<-- 0|INDI|Y|@I222448907396@
+--> 1 NAME krem /paul/
+<-- 1|NAME|Y|krem /paul/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 FAMS @F2@
+<-- 1|FAMS|Y|@F2@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 07 Jan 1972
+--> 0 @I222448907463@ INDI
+<-- 0|INDI|Y|@I222448907463@
+--> 1 NAME kiley /karter/
+<-- 1|NAME|Y|kiley /karter/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 FAMS @F2@
+<-- 1|FAMS|Y|@F2@
+--> 1 FAMS @F3@
+<-- 1|FAMS|Y|@F3@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 Sep 1976
+--> 0 @I222448907570@ INDI
+<-- 0|INDI|Y|@I222448907570@
+--> 1 NAME park /karter/
+<-- 1|NAME|Y|park /karter/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 FAMS @F3@
+<-- 1|FAMS|Y|@F3@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 23 Jun 1978
+--> 0 @I222448907866@ INDI
+<-- 0|INDI|Y|@I222448907866@
+--> 1 NAME fatin /karter/
+<-- 1|NAME|Y|fatin /karter/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 FAMC @F3@
+<-- 1|FAMC|Y|@F3@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 14 Dec 2007
+--> 0 NOTE Unit Test for story 3
+<-- 0|NOTE|Y|Unit Test for story 3
+--> 0 @I26789602@ INDI
+<-- 0|INDI|Y|@I26789602@
+--> 1 NAME Jim /hease/
+<-- 1|NAME|Y|Jim /hease/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 FAMS @F5@
+<-- 1|FAMS|Y|@F5@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 28 May 1993
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 03 JAN 1993
+--> 0 @I26789603@ INDI
+<-- 0|INDI|Y|@I26789603@
+--> 1 NAME alys /hease/
+<-- 1|NAME|Y|alys /hease/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 FAMS @F5@
+<-- 1|FAMS|Y|@F5@
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Jul 1995
+--> 0 NOTE Unit Test for story 1
+<-- 0|NOTE|Y|Unit Test for story 1
+--> 0 @I26789601@ INDI
+<-- 0|INDI|Y|@I26789601@
+--> 1 NAME crank /hease/
+<-- 1|NAME|Y|crank /hease/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 FAMC @F5@
+<-- 1|FAMC|Y|@F5@
+--> 1 FAMS @F7@
+<-- 1|FAMS|Y|@F7@
+--> 1 BIRT 
+<-- 1|BIRT|Y|
+--> 2 DATE 23 Jun 2023
+--> 0 NOTE Unit Test 1 for story 7
+<-- 0|NOTE|Y|Unit Test 1 for story 7
+--> 0 @I26789604@ INDI
+<-- 0|INDI|Y|@I26789604@
+--> 1 NAME dummy/ dummy/
+<-- 1|NAME|Y|dummy/ dummy/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Jul 1830
+--> 1 FAMS @F6@
+<-- 1|FAMS|Y|@F6@
+--> 0 NOTE Unit Test 1 for story 7
+<-- 0|NOTE|Y|Unit Test 1 for story 7
+--> 0 @I26789605@ INDI
+<-- 0|INDI|Y|@I26789605@
+--> 1 NAME maddy/ dummy/
+<-- 1|NAME|Y|maddy/ dummy/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Jul 1860
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 16 Aug 2015
+--> 1 FAMS @F6@
+<-- 1|FAMS|Y|@F6@
+--> 0 @I26789606@ INDI
+<-- 0|INDI|Y|@I26789606@
+--> 1 NAME Adani/ dummy/
+<-- 1|NAME|Y|Adani/ dummy/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 2015
+--> 1 FAMC @F6@
+<-- 1|FAMC|Y|@F6@
+--> 1 FAMS @F7@
+<-- 1|FAMS|Y|@F7@
+--> 0 @F1@ FAM
+<-- 0|FAM|Y|@F1@
+--> 1 HUSB @I222448906743@
+<-- 1|HUSB|Y|@I222448906743@
+--> 1 WIFE @I222448906745@
+<-- 1|WIFE|Y|@I222448906745@
+--> 1 CHIL @I222448907013@
+<-- 1|CHIL|Y|@I222448907013@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 08 08 1996
+--> 0 @F2@ FAM
+<-- 0|FAM|Y|@F2@
+--> 1 HUSB @I222448907396@
+<-- 1|HUSB|Y|@I222448907396@
+--> 1 WIFE @I222448907463@
+<-- 1|WIFE|Y|@I222448907463@
+--> 1 CHIL @I222448907057@
+<-- 1|CHIL|Y|@I222448907057@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 Feb 1995
+--> 1 DIV
+<-- 1|DIV|Y|
+--> 2 DATE 07 Sep 2001
+--> 0 @F3@ FAM
+<-- 0|FAM|Y|@F3@
+--> 1 HUSB @I222448907570@
+<-- 1|HUSB|Y|@I222448907570@
+--> 1 WIFE @I222448907463@
+<-- 1|WIFE|Y|@I222448907463@
+--> 1 CHIL @I222448907866@
+<-- 1|CHIL|Y|@I222448907866@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 09 2006
+--> 0 @F4@ FAM
+<-- 0|FAM|Y|@F4@
+--> 1 HUSB @I222448907013@
+<-- 1|HUSB|Y|@I222448907013@
+--> 1 WIFE @I222448907057@
+<-- 1|WIFE|Y|@I222448907057@
+--> 1 CHIL @I222448907189@
+<-- 1|CHIL|Y|@I222448907189@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 14 02 2020
+--> 0 @F5@ FAM
+<-- 0|FAM|Y|@F5@
+--> 1 HUSB @I26789602@
+<-- 1|HUSB|Y|@I26789602@
+--> 1 WIFE @I26789603@
+<-- 1|WIFE|Y|@I26789603@
+--> 1 CHIL @I26789601@
+<-- 1|CHIL|Y|@I26789601@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 16 Jun 1995
+--> 1 DIV
+<-- 1|DIV|Y|
+--> 2 DATE 12 Jun 1995
+--> 0 @F6@ FAM
+<-- 0|FAM|Y|@F6@
+--> 1 HUSB @I26789604@
+<-- 1|HUSB|Y|@I26789604@
+--> 1 WIFE @I26789605@
+<-- 1|WIFE|Y|@I26789605@
+--> 1 CHIL @I26789606@
+<-- 1|CHIL|Y|@I26789606@
+--> 1 MARR 
+<-- 1|MARR|Y|
+--> 2 DATE 16 Aug 2017
+--> 1 DIV 
+<-- 1|DIV|Y|
+--> 2 DATE 16 Aug 2016
+--> 0 @F7@ FAM
+<-- 0|FAM|Y|@F7@
+--> 1 HUSB @I26789601@
+<-- 1|HUSB|Y|@I26789601@
+--> 1 WIFE @I26789606@
+<-- 1|WIFE|Y|@I26789606@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 16 Aug 2026
+--> 0 TRLR
+<-- 0|TRLR|Y|
+
+People
++------------------+--------------------+----+-------------+-------------+-----+---------------+---------------+
+|                ID|                Name| SEX|   BIRTH DATE|   DEATH DATE|ALIVE|  FAMILY_SPOUSE|   FAMILY_CHILD|
++------------------+--------------------+----+-------------+-------------+-----+---------------+---------------+
+|   @I222448906743@|          sam /raud/|   M|   1972-08-09|   2021-04-30|false|           @F1@|              -|
+|   @I222448906745@|        maxxy /raud/|   F|   1978-12-18|            -| true|           @F1@|              -|
+|   @I222448907013@|       porter /raud/|   M|   1997-06-30|            -| true|           @F4@|           @F1@|
+|   @I222448907057@|      marinda /raud/|   F|   1997-02-22|            -| true|           @F4@|           @F2@|
+|   @I222448907189@|        rolie /raud/|   F|   2021-03-01|            -| true|              -|           @F4@|
+|   @I222448907396@|         krem /paul/|   M|   1972-01-07|            -| true|           @F2@|              -|
+|   @I222448907463@|      kiley /karter/|   F|   1976-09-30|            -| true|           @F3@|              -|
+|   @I222448907570@|       park /karter/|   M|   1978-06-23|            -| true|           @F3@|              -|
+|   @I222448907866@|      fatin /karter/|   M|   2007-12-14|            -| true|              -|           @F3@|
+|       @I26789601@|       crank /hease/|   M|   2023-06-23|            -| true|           @F7@|           @F5@|
+|       @I26789602@|         Jim /hease/|   M|   1993-05-28|   1993-01-03|false|           @F5@|              -|
+|       @I26789603@|        alys /hease/|   F|   1995-07-16|            -| true|           @F5@|              -|
+|       @I26789604@|       dummy/ dummy/|   M|   1830-07-16|            -| true|           @F6@|              -|
+|       @I26789605@|       maddy/ dummy/|   F|   1860-07-16|   2015-08-16|false|           @F6@|              -|
+|       @I26789606@|       Adani/ dummy/|   F|   2015-12-16|            -| true|           @F7@|           @F6@|
+|              bi00|     Jimmy /Conners/|   -|            -|            -| true|              -|              -|
++------------------+--------------------+----+-------------+-------------+-----+---------------+---------------+
+
+Families
++----------+--------------------+--------------------+-------------+-------------+-----------------------------------------+
+| Family_ID|        Husband Name|           Wife Name|Marriage Date| Divorce Date|                                Children|
++----------+--------------------+--------------------+-------------+-------------+-----------------------------------------+
+|      @F1@|          sam /raud/|        maxxy /raud/|   1996-08-08|            -|                       [@I222448907013@]|
+|      @F2@|         krem /paul/|      kiley /karter/|   1995-02-18|   2001-09-07|                       [@I222448907057@]|
+|      @F3@|       park /karter/|      kiley /karter/|   2007-06-09|            -|                       [@I222448907866@]|
+|      @F4@|       porter /raud/|      marinda /raud/|   2021-02-02|            -|                       [@I222448907189@]|
+|      @F5@|         Jim /hease/|        alys /hease/|   1995-06-16|   1995-06-12|                           [@I26789601@]|
+|      @F6@|       dummy/ dummy/|       maddy/ dummy/|   2017-08-16|   2016-08-16|                           [@I26789606@]|
+|      @F7@|       crank /hease/|       Adani/ dummy/|   2026-08-16|            -|                                      NA|
++----------+--------------------+--------------------+-------------+-------------+-----------------------------------------+
+
+Errors
+Error:User Story 1:Individual: @I26789601@ Birthday is in future 2023-06-23 00:00:00.0
+Error:User Story 3:Individual: @I26789602@Death Before Birth
+Error:User Story 7:Individual : @I26789604@Age greater than 150
+Error : User Story 2 : Family :@F5@ Marriage Should be after thebirth of husband and wife
+Error : User Story 4 : Family :@F5@ Marriage Should be before the divorce
+Error : User Story 5 : Family :@F5@ Marriage Should be before the death
+Error : User Story 6 : Family :@F5@ Divorce Should be before the death
+Error : User Story 10 : Family :@F5@ Individuals should be atleast 14 years old at the time of their marriage
+Error : User Story 4 : Family :@F6@ Marriage Should be before the divorce
+Error : User Story 5 : Family :@F6@ Marriage Should be before the death
+Error : User Story 6 : Family :@F6@ Divorce Should be before the death
+Error:User Story 1: Family : @F7@ Marriage Date given in future
+Error : User Story 10 : Family :@F7@ Individuals should be atleast 14 years old at the time of their marriage
+Anamoly :User Story 8: Child Id : @I26789606@of Family : @F6@ Birth of child Before Marraige
+Anamoly :User Story 9: Child Id : @I26789606@of Family : @F6@ Birth of child After death of parents
+Anamoly :User Story 12: Child Id:@I26789606@of Family : @F6@ Parents were too old at the child's birth
