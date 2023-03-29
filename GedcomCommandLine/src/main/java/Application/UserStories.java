@@ -1,8 +1,15 @@
 package Application;
 
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
+
+import Comprators.ChildrenBirthComprator;
+import Controller.ChildrenController;
 import Controller.FamilyController;
 import Controller.IndividualController;
+import Entities.Children;
 import Entities.Families;
 import Entities.Individuals;
 
@@ -193,4 +200,194 @@ public class UserStories {
 			fC.exit();
 		}
 	}
+	public boolean validSiblingSpacing(String famId) {
+		ChildrenController cC=new ChildrenController();
+		IndividualController iC=new IndividualController();
+		ArrayList<Children> list=(ArrayList<Children>) cC.getAll();
+		ArrayList<Children> famChild=new ArrayList<Children>();
+		try {
+			for(Children ch:list) {
+				if(ch.getFamilyId().equals(famId)) {
+					famChild.add(ch);
+				}
+			}
+			Collections.sort(famChild,new ChildrenBirthComprator());
+			for (int i = 1; i < famChild.size(); i ++) {
+				long difference_In_Time= iC.get(famChild.get(i).getChildId()).getBirthDate().getTime() - iC.get(famChild.get(i-1).getChildId()).getBirthDate().getTime();
+				long difference_In_Days = (difference_In_Time/ (1000 * 60 * 60 * 24) )% 365;
+				if(difference_In_Days<240 && difference_In_Days>=2) {
+					return false;
+				}
+			}
+			return true;
+		}finally {
+			iC.exit();
+			cC.exit();
+		}
+	}
+	public boolean invalidMultipleBirths(String famId) {
+		ChildrenController cC=new ChildrenController();
+		IndividualController iC=new IndividualController();
+		ArrayList<Children> list=(ArrayList<Children>) cC.getAll();
+		ArrayList<Children> famChild=new ArrayList<Children>();
+		int count=0;
+		try {
+			for(Children ch:list) {
+				if(ch.getFamilyId().equals(famId)) {
+					famChild.add(ch);
+				}
+			}
+			Collections.sort(famChild,new ChildrenBirthComprator());
+			for (int i = 1; i < famChild.size(); i ++) {
+				long difference_In_Time= iC.get(famChild.get(i).getChildId()).getBirthDate().getTime() - iC.get(famChild.get(i-1).getChildId()).getBirthDate().getTime();
+				long difference_In_Days = (difference_In_Time/ (1000 * 60 * 60 * 24) )% 365;
+				if(difference_In_Days<=1) {
+					if(count==0)
+						count++;
+					count++;
+					if(count>5)
+						return false;
+				}else {
+					count=0;
+				}
+			}
+			return true;
+		}finally {
+			iC.exit();
+			cC.exit();
+		}
+	}
+	public boolean checkValidSiblingCount(String famId) {
+		ChildrenController cC=new ChildrenController();
+		ArrayList<Children> list=(ArrayList<Children>) cC.getAll();
+		int count=0;
+		cC.exit();
+		for(Children ch:list) {
+			if(ch.getFamilyId().equals(famId)) {
+				count++;
+			}
+		}
+		if(count<15) {
+			return true;
+		}else {
+			return false;
+		}
+		
+	}
+	public boolean checkLastNames(String famId,String husbID) {
+		if(husbID==null) {
+			return false;
+		}
+		ChildrenController cC=new ChildrenController();
+		IndividualController iC=new IndividualController();
+		ArrayList<Children> list=(ArrayList<Children>) cC.getAll();
+		System.out.print(husbID);
+		System.out.println(iC.get(husbID)==null);
+		if(iC.get(husbID)==null) {
+			return true;
+		}
+		String lastName=iC.get(husbID).getName().split("/",3)[1].trim();
+		cC.exit();
+		for(Children ch:list) {
+			if(ch.getFamilyId().equals(famId) && iC.get(ch.getChildId()).getSex()=='M') {
+				if(!(lastName.equals(iC.get(ch.getChildId()).getName().split("/",3)[1].trim()))){
+					iC.exit();
+					return false;
+				}
+			}
+		}
+		cC.exit();
+		return true;
+	}
+	public boolean checkSiblingMarraige(String husbID,String wifeId) {
+		if(husbID==null||wifeId==null) {
+			return false;
+		}
+		ChildrenController cC=new ChildrenController();
+		try {
+			if(cC.get(wifeId)!=null&&cC.get(husbID)!=null&& cC.get(wifeId).getFamilyId().equals(cC.get(husbID).getFamilyId())) {
+				return true;
+			}else {
+				return false;
+			}
+		}finally {
+			cC.exit();
+		}
+	}
+	public boolean checkFirstCousinMarraige(String husbID,String wifeID) {
+		if(husbID==null||wifeID==null) {
+			return false;
+		}
+		IndividualController iC=new IndividualController();
+		FamilyController fC=new FamilyController();
+		try{
+			String husbFam1,husbFam2,wifeFam1,wifeFam2;
+			if(iC.get(husbID).getFamCId()!=null && iC.get(wifeID).getFamCId()!=null) {
+				husbFam1=iC.get(fC.get(iC.get(husbID).getFamCId()).getHusbandId()).getFamCId();
+				husbFam2=iC.get(fC.get(iC.get(husbID).getFamCId()).getWifeId()).getFamCId();
+				wifeFam1=iC.get(fC.get(iC.get(wifeID).getFamCId()).getHusbandId()).getFamCId();
+				wifeFam2=iC.get(fC.get(iC.get(wifeID).getFamCId()).getWifeId()).getFamCId();
+				if((husbFam1!=null && wifeFam1!=null && husbFam1.equals(wifeFam1))||(husbFam1!=null && wifeFam2!=null && husbFam1.equals(wifeFam2))) {
+					return true;
+				}
+				if((husbFam2!=null && wifeFam1!=null && husbFam2.equals(wifeFam1))||(husbFam2!=null && wifeFam2!=null && husbFam2.equals(wifeFam2))) {
+					return true;
+				}
+			}
+			return false;
+		}finally {
+			iC.exit();
+			fC.exit();
+		}
+		
+		
+	}
+	public boolean AuntUncleMarraige(String husbId,String wifeId) {
+		if(husbId==null||wifeId==null) {
+			return true;
+		}
+		IndividualController iC=new IndividualController();
+		ChildrenController cC=new ChildrenController();
+		ArrayList<Children> list=(ArrayList<Children>) cC.getAll();
+		String fam1Cid=iC.get(husbId).getFamCId();
+		String fam2Cid=iC.get(wifeId).getFamCId();
+		if(fam1Cid!=null) {
+			for(Children ch:list) {
+				if(fam1Cid.equals(ch.getFamilyId())&&!husbId.equals(ch.getChildId())) {
+					String fmid1=iC.get(ch.getChildId()).getFamSId();
+					if(fmid1!=null&&fam2Cid!=null&&fmid1.equals(fam2Cid)) {
+						return false;
+					}
+				}
+			}
+		}
+		if(fam2Cid!=null) {
+			for(Children ch:list) {
+				if(fam2Cid.equals(ch.getFamilyId())&&!wifeId.equals(ch.getChildId())) {
+					String fmid1=iC.get(ch.getChildId()).getFamSId();
+					if(fmid1!=null&&fam1Cid!=null&&fmid1.equals(fam1Cid)) {
+						return false;
+					}
+				}
+			}
+		}
+		
+		return true;
+	}
+	public boolean validGender(String husbId,String wifeId) {
+		if(husbId==null||wifeId==null) {
+			return true;
+		}
+		IndividualController iC=new IndividualController();
+		if(iC.get(wifeId).getSex()!='F'||iC.get(husbId).getSex()!='M') {
+			iC.exit();
+			return false;
+		}
+		iC.exit();
+		return true;
+		
+	}
+	
+	
+	
 }

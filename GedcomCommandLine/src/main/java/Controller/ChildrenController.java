@@ -50,6 +50,7 @@ public class ChildrenController {
 	}
 	public List<Children> getAll() {
 		Session session = sessionFactory.openSession();
+		
 		List<Children> res=session.createQuery("SELECT a FROM Children a", Children.class).getResultList();  
 		session.close();
 		return res;

@@ -65,6 +65,32 @@ public class Validator {
 			if(!us.marriageAfter14(fam)) {
 				sb.append("Error : User Story 10 : Family :"+fam.getFamiliyId()+" Individuals should be atleast 14 years old at the time of their marriage\n");
 			}
+			if(!us.validSiblingSpacing(fam.getFamiliyId())) {
+				sb.append("Anamoly: User Story 13 : Family :"+fam.getFamiliyId()+" There are invalid birth spacing for children\n");
+				
+			}
+			if(!us.invalidMultipleBirths(fam.getFamiliyId())) {
+				sb.append("Anamoly: User Story 14 : Family :"+fam.getFamiliyId()+" More than 5 births at same time\n");
+			}
+			if(!us.checkValidSiblingCount(fam.getFamiliyId())) {
+				sb.append("Anamoly: User Story 15: Family :"+fam.getFamiliyId()+" More than 15 children in the family\n");
+			}
+			if(!us.checkLastNames(fam.getFamiliyId(),fam.getHusbandId())) {
+				sb.append("Error: User Story 16: Family :"+fam.getFamiliyId()+" All male last names are not same\n");
+			}
+			if(us.checkSiblingMarraige(fam.getHusbandId(), fam.getWifeId())) {
+				sb.append("Anamoly: User Story 18: Family :"+fam.getFamiliyId()+" Siblings marraige is not allowed\n");
+			}
+			if(us.checkFirstCousinMarraige(fam.getHusbandId(), fam.getWifeId())) {
+				sb.append("Anamoly: User Story 19: Family :"+fam.getFamiliyId()+" First Cousins cant marry\n");
+			}
+			if(!us.AuntUncleMarraige(fam.getHusbandId(), fam.getWifeId())) {
+				sb.append("Anamoly: User Story 20: Family :"+fam.getFamiliyId()+" Aunt-nephew or Uncle-Neice Marraige are not allowed\n");
+			}
+			if(!us.validGender(fam.getHusbandId(), fam.getWifeId())) {
+				sb.append("Error: User Story 21: Family :"+fam.getFamiliyId()+" Genders of the HUsband and wife are marked wrong\n");
+			}
+			
 		}
 	}
 	public void validateChildren() {
