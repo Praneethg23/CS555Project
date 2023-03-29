@@ -43,7 +43,8 @@ public boolean invalidMultipleBirths(String famId) {
 		}
 		if(count<15) {
 			return true;
-		}else {
+		}else 
+		{
 			return false;
 		}
 	
