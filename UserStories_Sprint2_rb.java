@@ -1,4 +1,11 @@
 // Rishi Code
+// A method to check if the last names of all male children in a family are the same as that of their father.
+// Parameters:
+// - famId: a String representing the ID of the family to check
+// - husbID: a String representing the ID of the father of the family to check
+// Returns:
+// - a boolean value representing whether or not all male children in the family have the same last name as their father
+
 public boolean checkLastNames(String famId,String husbID) {
 		if(husbID==null) {
 			return false;
@@ -24,6 +31,15 @@ public boolean checkLastNames(String famId,String husbID) {
 		cC.exit();
 		return true;
 	}
+
+
+// A method to check if a husband and wife are married to each other as siblings.
+// Parameters:
+// - husbID: a String representing the ID of the husband to check
+// - wifeId: a String representing the ID of the wife to check
+// Returns:
+// - a boolean value representing whether or not the husband and wife are married to each other as siblings
+
 	public boolean checkSiblingMarraige(String husbID,String wifeId) {
 		if(husbID==null||wifeId==null) {
 			return false;
