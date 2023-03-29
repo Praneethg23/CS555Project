@@ -1,3 +1,4 @@
+public class UserStories_Sprint2_pg{
 public boolean invalidMultipleBirths(String famId) {
 		ChildrenController cC=new ChildrenController();
 		IndividualController iC=new IndividualController();
@@ -47,3 +48,4 @@ public boolean invalidMultipleBirths(String famId) {
 		}
 		
 	}
+}
