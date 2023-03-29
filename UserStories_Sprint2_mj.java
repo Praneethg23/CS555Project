@@ -46,6 +46,6 @@ public boolean invalidMultipleBirths(String famId) {
 		}else {
 			return false;
 		}
-		
+	
 	}
 }
