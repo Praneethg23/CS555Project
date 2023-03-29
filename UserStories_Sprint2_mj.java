@@ -1,4 +1,4 @@
-public class UserStories_Sprint2_pg{
+public class UserStories_Sprint2_mj{
 public boolean invalidMultipleBirths(String famId) {
 		ChildrenController cC=new ChildrenController();
 		IndividualController iC=new IndividualController();
