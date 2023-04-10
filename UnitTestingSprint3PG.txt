@@ -1,0 +1,48 @@
+Praneeth's Test case
+0 @I26789821@ INDI
+1 NAME usmale/ twentyseven/
+1 SEX M
+1 BIRT
+2 DATE 01 Jul 1989
+1 FAMS @F31@
+0 @I26789822@ INDI
+1 NAME usfem/ twentyseven/
+1 SEX F
+1 BIRT
+2 DATE 03 Mar 1990
+1 FAMS @F31@
+0 @I26789823@ INDI
+1 NAME usfemeone/ twentyseven/
+1 SEX F
+1 BIRT
+2 DATE 30 jun 2016
+1 FAMC @F31@
+0 @I26789824@ INDI
+1 NAME usmaleone/ twentyseven/
+1 SEX M
+1 BIRT
+2 DATE 31 dec 2017
+1 FAMC @F31@
+0 @I26789825@ INDI
+1 NAME usmale/ twentysevenone/
+1 SEX M
+1 BIRT
+2 DATE 01 Jul 1971
+1 FAMS @F32@
+0 @I26789826@ INDI
+1 NAME usfem/ twentysevenone/
+1 SEX F
+1 BIRT
+2 DATE 03 Mar 1973
+1 FAMS @F32@
+0 @I26789827@ INDI
+1 NAME usmaleone/ twentysevenone/
+1 SEX M
+1 BIRT
+2 DATE 30 jun 2001
+1 FAMC @F32@
+0 @F32@ FAM
+1 HUSB @I26789825@
+1 WIFE @I26789826@
+1 MARR
+2 DATE 18 Jan 200
