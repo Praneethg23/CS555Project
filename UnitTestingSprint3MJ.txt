@@ -1,0 +1,31 @@
+Mihir Test cases
+0 @I26789800@ INDI
+1 NAME usmale/ twentythree/
+1 SEX M
+1 BIRT
+2 DATE 16 Dec 1940
+1 FAMS @F24@
+0 @I26789801@ INDI
+1 NAME usfem/ twentythree/
+1 SEX F
+1 BIRT
+2 DATE 16 Dec 1968
+1 FAMS @F24@
+0 @I26789802@ INDI
+1 NAME usmale/ twentythree/
+1 SEX M
+1 BIRT
+2 DATE 16 Dec 1940
+1 FAMS @F33@
+0 @I26789803@ INDI
+1 NAME usfemone/ twentythree/
+1 SEX F
+1 BIRT
+2 DATE 16 Dec 1942
+1 FAMS @F33@
+0 @I26789804@ INDI
+1 NAME usfem/ twentythree/
+1 SEX F
+1 BIRT
+2 DATE 16 Dec 1968
+1 FAMC @F33@
