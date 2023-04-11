@@ -9,7 +9,7 @@ public boolean uniqueChildren(String famId) {
 		for(Children ch:list) {
 			if(ch.getFamilyId().equals(famId)) {
                 // Get the individual associated with the child
-				Individuals i = iC.get(ch.getChildId());
+				Individuals i = iC.get(ch.getChildId())
 				if(set.contains(i.getNameNoNull()+i.getBirthDateNoNull())) {
 					iC.exit();
 					return false;
