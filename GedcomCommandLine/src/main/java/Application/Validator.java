@@ -1,6 +1,8 @@
 package Application;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+
 
 import Controller.ChildrenController;
 import Controller.FamilyController;
@@ -25,6 +27,7 @@ public class Validator {
 	public void validateIndividuals() {
 		IndividualController iC = new IndividualController();
 		ArrayList<Individuals>  list=(ArrayList<Individuals>) iC.getAll();
+		HashSet<String> indlist =new HashSet<String>();
 		for(Individuals i:list) {
 			if(i.getBirthDate()!=null && !us.isValidDate(i.getBirthDate())) {
 				sb.append("Error:User Story 1:Individual: "+i.getId()+" Birthday is in future "+i.getBirthDate()+"\n");
@@ -38,11 +41,21 @@ public class Validator {
 			if(!us.checkAge150(i)) {
 				sb.append("Error:User Story 7:Individual : "+i.getId()+"Age greater than 150\n");
 			}
+			if(!us.uniqueIndividuals(indlist, i.getNameNoNull(), i.getBirthDateNoNull())) {
+				sb.append("Error:User Story 23:Individual : "+i.getId()+" Already other indivudal with same name and date of birth exist\n");
+			}
+			if(!us.checkCorrespondingEntries(i)) {
+				sb.append("Error : User Story 26:Indiivdual :"+i.getId()+" is missing corresponding entries or having invalid entries in families description\n");
+			}
 		}
+		iC.exit();
+		
 	}
 	public void validateFamilies() {
 		FamilyController fC = new FamilyController();
 		ArrayList<Families> fams=(ArrayList<Families>) fC.getAll();
+		HashSet<String> famlist =new HashSet<String>();
+		IndividualController iC=new IndividualController();
 		for(Families fam:fams) {
 			if(fam.getMarraigeDate()!=null && !us.isValidDate(fam.getMarraigeDate())) {
 				sb.append("Error:User Story 1: Family : "+fam.getFamiliyId()+" Marriage Date given in future\n");
@@ -90,8 +103,17 @@ public class Validator {
 			if(!us.validGender(fam.getHusbandId(), fam.getWifeId())) {
 				sb.append("Error: User Story 21: Family :"+fam.getFamiliyId()+" Genders of the HUsband and wife are marked wrong\n");
 			}
+			Individuals husb=iC.get(fam.getHusbandId());
+			Individuals wife=iC.get(fam.getWifeId());
+			if(!us.uniqueFamily(famlist, husb.getNameNoNull(),wife.getNameNoNull(),fam.getMarraigeDateNoNull())) {
+				sb.append("Error: User Strory 24: Family :"+fam.getFamiliyId()+" Already another family exist with same spouse details\n");
+			}
+			if(!us.uniqueChildren(fam.getFamiliyId())) {
+				sb.append("Error: User Story 25: Family : "+fam.getFamiliyId()+" It have duplicate child enteries\n");
+			}
 			
 		}
+		iC.exit();
 	}
 	public void validateChildren() {
 		ChildrenController cC=new ChildrenController();
@@ -109,6 +131,16 @@ public class Validator {
 			}
 			
 		}
+		IndividualController iC = new IndividualController();
+		FamilyController fC = new FamilyController();
+		ArrayList<Individuals> list1=(ArrayList<Individuals>) iC.getAll();
+		ArrayList<Families> list2=(ArrayList<Families>) fC.getAll();
+		iC.exit();
+		fC.exit();
+		cC.exit();
+		sb.append(us.listDeceased(list1));
+		sb.append(us.listMarried(list2));
+		sb.append(us.listUnMarried(list2));
 	}
 
 }

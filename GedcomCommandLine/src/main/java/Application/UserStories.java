@@ -4,6 +4,8 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+import java.util.Formatter;
+import java.util.HashSet;
 
 import Comprators.ChildrenBirthComprator;
 import Controller.ChildrenController;
@@ -211,6 +213,7 @@ public class UserStories {
 					famChild.add(ch);
 				}
 			}
+			System.out.print(famChild);
 			Collections.sort(famChild,new ChildrenBirthComprator());
 			for (int i = 1; i < famChild.size(); i ++) {
 				long difference_In_Time= iC.get(famChild.get(i).getChildId()).getBirthDate().getTime() - iC.get(famChild.get(i-1).getChildId()).getBirthDate().getTime();
@@ -387,7 +390,158 @@ public class UserStories {
 		return true;
 		
 	}
-	
+	public boolean uniqueIndividuals(HashSet<String> set,String name,String date) {
+		if(set.contains(name+date)) {
+			return false;
+		}
+		set.add(name+date);
+		return true;
+	}
+	public boolean uniqueFamily(HashSet<String> set,String husbName,String wifeName,String date) {
+		if(set.contains(husbName+wifeName+date)) {
+			return false;
+		}
+		set.add(husbName+wifeName+date);
+		return true;
+	}
+	public boolean uniqueChildren(String famId) {
+		ChildrenController cC=new ChildrenController();
+		ArrayList<Children> list=(ArrayList<Children>) cC.getAll();
+		HashSet<String> set = new HashSet<String>();
+		IndividualController iC = new IndividualController();
+		cC.exit();
+		for(Children ch:list) {
+			if(ch.getFamilyId().equals(famId)) {
+				Individuals i = iC.get(ch.getChildId());
+				if(set.contains(i.getNameNoNull()+i.getBirthDateNoNull())) {
+					iC.exit();
+					return false;
+				}
+				set.add(i.getNameNoNull()+i.getBirthDateNoNull());
+			}
+		}
+		iC.exit();
+		return true;
+		
+	}
+	public boolean checkCorrespondingEntries(Individuals i) {
+		ChildrenController cC=new ChildrenController();
+		FamilyController fC=new FamilyController();
+		try {
+			if(i.getFamCId()!=null) {
+				Children c = cC.get(i.getId());
+				if(c==null) {
+					return false;
+				}
+				if(!c.getFamilyId().equals(i.getFamCId())) {
+					return false;
+				}
+			}
+			if(i.getFamSId()!=null) {
+				Families f=fC.get(i.getFamSId());
+				if(f==null) {
+					return false;
+				}
+			}
+			return true;
+		}finally {
+			cC.exit();
+			fC.exit();
+		}
+		
+	}
+	public String calculateAge(Date d1,Date d2) {
+		if(d1==null)
+			return "N/A";
+		else if(d2!=null){
+			long diff_time = d2.getTime()-d1.getTime();
+			long difference_In_Years= (diff_time/ (1000l * 60 * 60 * 24 * 365));
+			return ""+difference_In_Years;
+		}
+		else {
+			Date now=new Date();
+			long diff_time = now.getTime()-d1.getTime();
+			long difference_In_Years= (diff_time/ (1000l * 60 * 60 * 24 * 365));
+			return ""+difference_In_Years;
+		}
+	}
+	public String listDeceased(ArrayList<Individuals>  list) {
+		Formatter fmt = new Formatter();
+		fmt.format("+------------------+--------------------------+----+-------------+-------------+-----+---------------+---------------+\n");
+	    fmt.format("|%18s|%26s|%4s|%13s|%13s|%5s|%15s|%15s|\n", "ID", "Name","SEX","BIRTH DATE","DEATH DATE","AGE","FAMILY_SPOUSE","FAMILY_CHILD");
+	    fmt.format("+------------------+--------------------------+----+-------------+-------------+-----+---------------+---------------+\n");
+		for(Individuals i:list) {
+			if(i.getDeathDate()!=null) {
+				fmt.format("|%18s|%26s|%4s|%13s|%13s|%5s|%15s|%15s|\n",i.getId(),i.getNameNoNull(),i.getSexNoNull(),i.getBirthDateNoNull(),i.getDeathDateNoNull(),calculateAge(i.getBirthDate(),i.getDeathDate()),i.getFamSIdNoNull(),i.getFamCIdNoNull());
+			}
+		}
+		fmt.format("+------------------+--------------------------+----+-------------+-------------+-----+---------------+---------------+\n");
+		
+        String res="User Story 29:Deceased Individuals \n"+fmt.toString();
+        fmt.close();
+        return res;
+	}
+	public String listMarried(ArrayList<Families>  list) {
+		IndividualController ic=new IndividualController();
+		Formatter fmt = new Formatter();
+		fmt.format("+---------------+------------------+--------------------------+------------------+--------------------------+\n");
+	    fmt.format("|%15s|%18s|%26s|%18s|%26s|\n", "FAMILY ID", "HUSBAND_ID","HUSBAND NAME","WIFE_ID","WIFE NAME");
+	    fmt.format("+---------------+------------------+--------------------------+------------------+--------------------------+\n");
+		for(Families f:list) {
+			Individuals husb=ic.get(f.getHusbandId());
+			Individuals wife=ic.get(f.getWifeId());
+			if(husb!=null && wife!=null) {
+				if(husb.getDeathDate()==null && wife.getDeathDate()==null) {
+					fmt.format("|%15s|%18s|%26s|%18s|%26s|\n",f.getFamiliyId(),husb.getId(),husb.getNameNoNull(),wife.getId(),wife.getNameNoNull());
+				}
+				else if(husb.getDeathDate()!=null && wife.getDeathDate()==null) {
+					fmt.format("|%15s|%18s|%26s|%18s|%26s|\n",f.getFamiliyId(),"-","Deceased",wife.getId(),wife.getNameNoNull());
+				
+				}
+				else if(husb.getDeathDate()==null && wife.getDeathDate()!=null) {
+					fmt.format("|%15s|%18s|%26s|%18s|%26s|\n",f.getFamiliyId(),husb.getId(),husb.getNameNoNull(),"-","Deceased");
+				}
+				
+			}
+			else if(husb!=null && wife==null && husb.getDeathDate()==null) {
+				fmt.format("|%15s|%18s|%26s|%18s|%26s|\n",f.getFamiliyId(),husb.getId(),husb.getNameNoNull(),"N/A","N/A");
+			}
+			else if(husb==null && wife!=null && wife.getDeathDate()==null) {
+				fmt.format("|%15s|%18s|%26s|%18s|%26s|\n",f.getFamiliyId(),"N/A","N/A",wife.getId(),wife.getNameNoNull());
+			}
+		}
+		fmt.format("+---------------+------------------+--------------------------+------------------+--------------------------+\n");
+		
+        String res="User Story 30: Married Individuals Alive \n"+fmt.toString();
+        ic.exit();
+        fmt.close();
+        return res;
+	}
+	public String listUnMarried(ArrayList<Families> list) {
+		HashSet<String> set = new HashSet<String>();
+		IndividualController iC=new IndividualController();
+		ArrayList<Individuals>  inds=(ArrayList<Individuals>) iC.getAll();
+		for(Families f:list) {
+			if(f.getHusbandId()!=null)
+				set.add(f.getHusbandId());
+			if(f.getWifeId()!=null)
+				set.add(f.getWifeId());
+		}
+		Formatter fmt = new Formatter();
+		fmt.format("+------------------+--------------------------+----+-------------+-----+\n");
+	    fmt.format("|%18s|%26s|%4s|%13s|%5s|\n", "ID", "Name","SEX","BIRTH DATE","AGE");
+	    fmt.format("+------------------+--------------------------+----+-------------+-----+\n");
+		for(Individuals i:inds) {
+			if(!set.contains(i.getId())&&i.getDeathDate()==null) {
+				fmt.format("|%18s|%25s|%4s|%13s|%5s|\n",i.getId(),i.getNameNoNull(),i.getSexNoNull(),i.getBirthDateNoNull(),calculateAge(i.getBirthDate(),i.getDeathDate()));
+			}
+		}
+		fmt.format("+------------------+--------------------------+----+-------------+-----+\n");
+        String res="User Story 31 :UnMarried Living Individuals\n"+fmt.toString();
+        iC.exit();
+        fmt.close();
+        return res;
+	}
 	
 	
 }

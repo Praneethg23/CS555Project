@@ -19,17 +19,18 @@ public class GedcomTablePrinter {
 		bringChildren();
 	}
 	public String printIndividuals(){
+		UserStories us=new UserStories();
 		IndividualController ic=new IndividualController();
 		ArrayList<Individuals>  list=(ArrayList<Individuals>) ic.getAll();
 		Formatter fmt = new Formatter();
-		fmt.format("+------------------+-------------------------+----+-------------+-------------+-----+---------------+---------------+\n");
-	    fmt.format("|%18s|%25s|%4s|%13s|%13s|%5s|%15s|%15s|\n", "ID", "Name","SEX","BIRTH DATE","DEATH DATE","ALIVE","FAMILY_SPOUSE","FAMILY_CHILD");
-	    fmt.format("+------------------+-------------------------+----+-------------+-------------+-----+---------------+---------------+\n");
+		fmt.format("+------------------+--------------------------+----+-------------+-------------+-----+-----+---------------+---------------+\n");
+	    fmt.format("|%18s|%26s|%4s|%13s|%13s|%5s|%5s|%15s|%15s|\n", "ID", "Name","SEX","BIRTH DATE","DEATH DATE","ALIVE","AGE","FAMILY_SPOUSE","FAMILY_CHILD");
+	    fmt.format("+------------------+--------------------------+----+-------------+-------------+-----+-----+---------------+---------------+\n");
 		for(Individuals i:list) {
-			 fmt.format("|%18s|%25s|%4s|%13s|%13s|%5s|%15s|%15s|\n",i.getId(),i.getNameNoNull(),i.getSexNoNull(),i.getBirthDateNoNull(),i.getDeathDateNoNull(),(i.getDeathDate()==null),i.getFamSIdNoNull(),i.getFamCIdNoNull());
+			 fmt.format("|%18s|%26s|%4s|%13s|%13s|%5s|%5s|%15s|%15s|\n",i.getId(),i.getNameNoNull(),i.getSexNoNull(),i.getBirthDateNoNull(),i.getDeathDateNoNull(),(i.getDeathDate()==null),us.calculateAge(i.getBirthDate(), i.getDeathDate()),i.getFamSIdNoNull(),i.getFamCIdNoNull());
 			 
 		}
-		fmt.format("+------------------+-------------------------+----+-------------+-------------+-----+---------------+---------------+\n");
+		fmt.format("+------------------+--------------------------+----+-------------+-------------+-----+-----+---------------+---------------+\n");
 		
         String res=fmt.toString();
         ic.exit();
@@ -41,19 +42,19 @@ public class GedcomTablePrinter {
 		IndividualController iC=new IndividualController();
 		ArrayList<Families> fams=(ArrayList<Families>) fC.getAll();
 		Formatter fmt = new Formatter();
-		fmt.format("+----------+-------------------------+-------------------------+-------------+-------------+-----------------------------------------+\n");
-		fmt.format("|%10s|%25s|%25s|%13s|%13s|%40s|\n","Family_ID","Husband Name","Wife Name","Marriage Date","Divorce Date","Children");
-		fmt.format("+----------+-------------------------+-------------------------+-------------+-------------+-----------------------------------------+\n");
+		fmt.format("+----------+--------------------------+--------------------------+-------------+-------------+-----------------------------------------+\n");
+		fmt.format("|%10s|%26s|%26s|%13s|%13s|%40s|\n","Family_ID","Husband Name","Wife Name","Marriage Date","Divorce Date","Children");
+		fmt.format("+----------+--------------------------+--------------------------+-------------+-------------+-----------------------------------------+\n");
 		for(Families f:fams) {
 			Individuals husb=iC.get(f.getHusbandId());
 			Individuals wife=iC.get(f.getWifeId());
 			if(children.containsKey(f.getFamiliyId()))
-				fmt.format("|%10s|%25s|%25s|%13s|%13s|%40s|\n",f.getFamiliyId(),husb.getNameNoNull(),wife.getNameNoNull(),f.getMarraigeDateNoNull(),f.getDivorceDateNoNull(),children.get(f.getFamiliyId()).toString());
+				fmt.format("|%10s|%26s|%26s|%13s|%13s|%40s|\n",f.getFamiliyId(),husb.getNameNoNull(),wife.getNameNoNull(),f.getMarraigeDateNoNull(),f.getDivorceDateNoNull(),children.get(f.getFamiliyId()).toString());
 			else{
-				fmt.format("|%10s|%25s|%25s|%13s|%13s|%40s|\n",f.getFamiliyId(),husb.getNameNoNull(),wife.getNameNoNull(),f.getMarraigeDateNoNull(),f.getDivorceDateNoNull(),"NA");
+				fmt.format("|%10s|%26s|%26s|%13s|%13s|%40s|\n",f.getFamiliyId(),husb.getNameNoNull(),wife.getNameNoNull(),f.getMarraigeDateNoNull(),f.getDivorceDateNoNull(),"NA");
 			}
 		}
-		fmt.format("+----------+-------------------------+-------------------------+-------------+-------------+-----------------------------------------+\n");
+		fmt.format("+----------+--------------------------+--------------------------+-------------+-------------+-----------------------------------------+\n");
 		System.out.println();
         String res=fmt.toString();
         iC.exit();

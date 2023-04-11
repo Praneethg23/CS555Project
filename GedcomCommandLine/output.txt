@@ -828,6 +828,314 @@
 --> 2 DATE 16 Dec 1940
 --> 1 FAMS @F23@
 <-- 1|FAMS|Y|@F23@
+--> 0 @I26789800@ INDI
+<-- 0|INDI|Y|@I26789800@
+--> 1 NAME usmale/ twentythree/
+<-- 1|NAME|Y|usmale/ twentythree/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1940
+--> 1 FAMS @F24@
+<-- 1|FAMS|Y|@F24@
+--> 0 @I26789801@ INDI
+<-- 0|INDI|Y|@I26789801@
+--> 1 NAME usfem/ twentythree/
+<-- 1|NAME|Y|usfem/ twentythree/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1968
+--> 1 FAMS @F24@
+<-- 1|FAMS|Y|@F24@
+--> 0 @I26789802@ INDI
+<-- 0|INDI|Y|@I26789802@
+--> 1 NAME usmale/ twentythree/
+<-- 1|NAME|Y|usmale/ twentythree/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1940
+--> 1 FAMS @F33@
+<-- 1|FAMS|Y|@F33@
+--> 0 @I26789803@ INDI
+<-- 0|INDI|Y|@I26789803@
+--> 1 NAME usfemone/ twentythree/
+<-- 1|NAME|Y|usfemone/ twentythree/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1942
+--> 1 FAMS @F33@
+<-- 1|FAMS|Y|@F33@
+--> 0 @I26789804@ INDI
+<-- 0|INDI|Y|@I26789804@
+--> 1 NAME usfem/ twentythree/
+<-- 1|NAME|Y|usfem/ twentythree/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1968
+--> 1 FAMC @F33@
+<-- 1|FAMC|Y|@F33@
+--> 0 @I26789805@ INDI
+<-- 0|INDI|Y|@I26789805@
+--> 1 NAME usmale/ twentyfour/
+<-- 1|NAME|Y|usmale/ twentyfour/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1940
+--> 1 FAMS @F25@
+<-- 1|FAMS|Y|@F25@
+--> 0 @I26789806@ INDI
+<-- 0|INDI|Y|@I26789806@
+--> 1 NAME usfem/ twentyfour/
+<-- 1|NAME|Y|usfem/ twentyfour/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1942
+--> 1 FAMS @F25@
+<-- 1|FAMS|Y|@F25@
+--> 0 @I26789807@ INDI
+<-- 0|INDI|Y|@I26789807@
+--> 1 NAME usmale/ twentyfour/
+<-- 1|NAME|Y|usmale/ twentyfour/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1944
+--> 1 FAMS @F26@
+<-- 1|FAMS|Y|@F26@
+--> 0 @I26789808@ INDI
+<-- 0|INDI|Y|@I26789808@
+--> 1 NAME usfem/ twentyfour/
+<-- 1|NAME|Y|usfem/ twentyfour/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Dec 1943
+--> 1 FAMS @F26@
+<-- 1|FAMS|Y|@F26@
+--> 0 @I26789809@ INDI
+<-- 0|INDI|Y|@I26789809@
+--> 1 NAME usmale/ twentyfourone/
+<-- 1|NAME|Y|usmale/ twentyfourone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 21 Dec 1980
+--> 1 FAMS @F27@
+<-- 1|FAMS|Y|@F27@
+--> 0 @I26789810@ INDI
+<-- 0|INDI|Y|@I26789810@
+--> 1 NAME usfem/ twentyfourone/
+<-- 1|NAME|Y|usfem/ twentyfourone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 MAR 1985
+--> 1 FAMS @F27@
+<-- 1|FAMS|Y|@F27@
+--> 0 @I26789811@ INDI
+<-- 0|INDI|Y|@I26789811@
+--> 1 NAME usmale/ twentyfourone/
+<-- 1|NAME|Y|usmale/ twentyfourone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 19 Feb 1979
+--> 1 FAMS @F28@
+<-- 1|FAMS|Y|@F28@
+--> 0 @I26789812@ INDI
+<-- 0|INDI|Y|@I26789812@
+--> 1 NAME usfem/ twentyfourone/
+<-- 1|NAME|Y|usfem/ twentyfourone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 16 Jan 1982
+--> 1 FAMS @F28@
+<-- 1|FAMS|Y|@F28@
+--> 0 @I26789813@ INDI
+<-- 0|INDI|Y|@I26789813@
+--> 1 NAME usmale/ twentyfive/
+<-- 1|NAME|Y|usmale/ twentyfive/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 06 Jul 1944
+--> 1 FAMS @F29@
+<-- 1|FAMS|Y|@F29@
+--> 0 @I26789814@ INDI
+<-- 0|INDI|Y|@I26789814@
+--> 1 NAME usfem/ twentyfive/
+<-- 1|NAME|Y|usfem/ twentyfive/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 Mar 1943
+--> 1 FAMS @F29@
+<-- 1|FAMS|Y|@F29@
+--> 0 @I26789815@ INDI
+<-- 0|INDI|Y|@I26789815@
+--> 1 NAME usmaleone/ twentyfive/
+<-- 1|NAME|Y|usmaleone/ twentyfive/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 jun 1980
+--> 1 FAMC @F29@
+<-- 1|FAMC|Y|@F29@
+--> 0 @I26789816@ INDI
+<-- 0|INDI|Y|@I26789816@
+--> 1 NAME usmaleone/ twentyfive/
+<-- 1|NAME|Y|usmaleone/ twentyfive/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 jun 1980
+--> 1 FAMC @F29@
+<-- 1|FAMC|Y|@F29@
+--> 0 @I26789817@ INDI
+<-- 0|INDI|Y|@I26789817@
+--> 1 NAME usmale/ twentyfiveone/
+<-- 1|NAME|Y|usmale/ twentyfiveone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 06 Jul 1944
+--> 1 FAMS @F30@
+<-- 1|FAMS|Y|@F30@
+--> 0 @I26789818@ INDI
+<-- 0|INDI|Y|@I26789818@
+--> 1 NAME usfem/ twentyfiveone/
+<-- 1|NAME|Y|usfem/ twentyfiveone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 Mar 1943
+--> 1 FAMS @F30@
+<-- 1|FAMS|Y|@F30@
+--> 0 @I26789819@ INDI
+<-- 0|INDI|Y|@I26789819@
+--> 1 NAME usfemeone/ twentyfiveone/
+<-- 1|NAME|Y|usfemeone/ twentyfiveone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 jun 1980
+--> 1 FAMC @F30@
+<-- 1|FAMC|Y|@F30@
+--> 0 @I26789820@ INDI
+<-- 0|INDI|Y|@I26789820@
+--> 1 NAME usfemone/ twentyfiveone/
+<-- 1|NAME|Y|usfemone/ twentyfiveone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 jun 1980
+--> 1 FAMC @F30@
+<-- 1|FAMC|Y|@F30@
+--> 0 @I26789821@ INDI
+<-- 0|INDI|Y|@I26789821@
+--> 1 NAME usmale/ twentyseven/
+<-- 1|NAME|Y|usmale/ twentyseven/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 01 Jul 1989
+--> 1 FAMS @F31@
+<-- 1|FAMS|Y|@F31@
+--> 0 @I26789822@ INDI
+<-- 0|INDI|Y|@I26789822@
+--> 1 NAME usfem/ twentyseven/
+<-- 1|NAME|Y|usfem/ twentyseven/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 03 Mar 1990
+--> 1 FAMS @F31@
+<-- 1|FAMS|Y|@F31@
+--> 0 @I26789823@ INDI
+<-- 0|INDI|Y|@I26789823@
+--> 1 NAME usfemeone/ twentyseven/
+<-- 1|NAME|Y|usfemeone/ twentyseven/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 jun 2016
+--> 1 FAMC @F31@
+<-- 1|FAMC|Y|@F31@
+--> 0 @I26789824@ INDI
+<-- 0|INDI|Y|@I26789824@
+--> 1 NAME usmaleone/ twentyseven/
+<-- 1|NAME|Y|usmaleone/ twentyseven/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 31 dec 2017
+--> 1 FAMC @F31@
+<-- 1|FAMC|Y|@F31@
+--> 0 @I26789825@ INDI
+<-- 0|INDI|Y|@I26789825@
+--> 1 NAME usmale/ twentysevenone/
+<-- 1|NAME|Y|usmale/ twentysevenone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 01 Jul 1971
+--> 1 FAMS @F32@
+<-- 1|FAMS|Y|@F32@
+--> 0 @I26789826@ INDI
+<-- 0|INDI|Y|@I26789826@
+--> 1 NAME usfem/ twentysevenone/
+<-- 1|NAME|Y|usfem/ twentysevenone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 03 Mar 1973
+--> 1 FAMS @F32@
+<-- 1|FAMS|Y|@F32@
+--> 0 @I26789827@ INDI
+<-- 0|INDI|Y|@I26789827@
+--> 1 NAME usmaleone/ twentysevenone/
+<-- 1|NAME|Y|usmaleone/ twentysevenone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 30 jun 2001
+--> 1 FAMC @F32@
+<-- 1|FAMC|Y|@F32@
 --> 0 @F1@ FAM
 <-- 0|FAM|Y|@F1@
 --> 1 HUSB @I222448906743@
@@ -1122,119 +1430,256 @@
 --> 1 MARR
 <-- 1|MARR|Y|
 --> 2 DATE 16 Aug 1982
+--> 0 @F24@ FAM
+<-- 0|FAM|Y|@F24@
+--> 1 HUSB @I26789800@
+<-- 1|HUSB|Y|@I26789800@
+--> 1 WIFE @I26789801@
+<-- 1|WIFE|Y|@I26789801@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 16 Aug 1987
+--> 0 @F33@ FAM
+<-- 0|FAM|Y|@F33@
+--> 1 HUSB @I26789802@
+<-- 1|HUSB|Y|@I26789802@
+--> 1 WIFE @I26789803@
+<-- 1|WIFE|Y|@I26789803@
+--> 1 CHIL @I26789804@
+<-- 1|CHIL|Y|@I26789804@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 16 Aug 1966
+--> 0 @F25@ FAM
+<-- 0|FAM|Y|@F25@
+--> 1 HUSB @I26789805@
+<-- 1|HUSB|Y|@I26789805@
+--> 1 WIFE @I26789806@
+<-- 1|WIFE|Y|@I26789806@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 Jan 1972
+--> 0 @F26@ FAM
+<-- 0|FAM|Y|@F26@
+--> 1 HUSB @I26789807@
+<-- 1|HUSB|Y|@I26789807@
+--> 1 WIFE @I26789808@
+<-- 1|WIFE|Y|@I26789808@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 Jan 1972
+--> 0 @F27@ FAM
+<-- 0|FAM|Y|@F27@
+--> 1 HUSB @I26789809@
+<-- 1|HUSB|Y|@I26789809@
+--> 1 WIFE @I26789810@
+<-- 1|WIFE|Y|@I26789810@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 21 May 2006
+--> 0 @F28@ FAM
+<-- 0|FAM|Y|@F28@
+--> 1 HUSB @I26789811@
+<-- 1|HUSB|Y|@I26789811@
+--> 1 WIFE @I26789812@
+<-- 1|WIFE|Y|@I26789812@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 21 May 2006
+--> 0 @F29@ FAM
+<-- 0|FAM|Y|@F29@
+--> 1 HUSB @I26789813@
+<-- 1|HUSB|Y|@I26789813@
+--> 1 WIFE @I26789814@
+<-- 1|WIFE|Y|@I26789814@
+--> 1 CHIL @I26789815@
+<-- 1|CHIL|Y|@I26789815@
+--> 1 CHIL @I26789816@
+<-- 1|CHIL|Y|@I26789816@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 16 Aug 1976
+--> 0 @F30@ FAM
+<-- 0|FAM|Y|@F30@
+--> 1 HUSB @I26789817@
+<-- 1|HUSB|Y|@I26789817@
+--> 1 WIFE @I26789818@
+<-- 1|WIFE|Y|@I26789818@
+--> 1 CHIL @I26789819@
+<-- 1|CHIL|Y|@I26789819@
+--> 1 CHIL @I26789820@
+<-- 1|CHIL|Y|@I26789820@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 09 Nov 1978
+--> 0 @F32@ FAM
+<-- 0|FAM|Y|@F32@
+--> 1 HUSB @I26789825@
+<-- 1|HUSB|Y|@I26789825@
+--> 1 WIFE @I26789826@
+<-- 1|WIFE|Y|@I26789826@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 Jan 200
+Invalid Date Format
 --> 0 TRLR
 <-- 0|TRLR|Y|
 
 People
-+------------------+-------------------------+----+-------------+-------------+-----+---------------+---------------+
-|                ID|                     Name| SEX|   BIRTH DATE|   DEATH DATE|ALIVE|  FAMILY_SPOUSE|   FAMILY_CHILD|
-+------------------+-------------------------+----+-------------+-------------+-----+---------------+---------------+
-|   @I222448906743@|               sam /raud/|   M|   1972-08-09|   2021-04-30|false|           @F1@|              -|
-|   @I222448906745@|             maxxy /raud/|   F|   1978-12-18|            -| true|           @F1@|              -|
-|   @I222448907013@|            porter /raud/|   M|   1997-06-30|            -| true|           @F4@|           @F1@|
-|   @I222448907057@|           marinda /raud/|   F|   1997-02-22|            -| true|           @F4@|           @F2@|
-|   @I222448907189@|             rolie /raud/|   F|   2021-03-01|            -| true|              -|           @F4@|
-|   @I222448907396@|              krem /paul/|   M|   1972-01-07|            -| true|           @F2@|              -|
-|   @I222448907463@|           kiley /karter/|   F|   1976-09-30|            -| true|           @F3@|              -|
-|   @I222448907570@|            park /karter/|   M|   1978-06-23|            -| true|           @F3@|              -|
-|   @I222448907866@|           fatin /karter/|   M|   2007-12-14|            -| true|              -|           @F3@|
-|       @I26789601@|            crank /hease/|   M|   2023-06-23|            -| true|           @F7@|           @F5@|
-|       @I26789602@|              Jim /hease/|   M|   1993-05-28|   1993-01-03|false|           @F5@|              -|
-|       @I26789603@|             alys /hease/|   F|   1995-07-16|            -| true|           @F5@|              -|
-|       @I26789604@|            dummy/ dummy/|   M|   1830-07-16|            -| true|           @F6@|              -|
-|       @I26789605@|            maddy/ dummy/|   F|   1860-07-16|   2015-08-16|false|           @F6@|              -|
-|       @I26789606@|            Adani/ dummy/|   F|   2015-12-16|            -| true|           @F7@|           @F6@|
-|       @I26789700@|        usmale/ eighteen/|   M|   1960-12-16|            -| true|           @F8@|              -|
-|       @I26789701@|         usfem/ eighteen/|   F|   1961-12-16|            -| true|           @F8@|              -|
-|       @I26789702@|   usmalechild/ eighteen/|   M|   1985-12-16|            -| true|           @F9@|           @F8@|
-|       @I26789703@|    usfemchild/ eighteen/|   F|   1986-12-16|            -| true|           @F9@|           @F8@|
-|       @I26789704@|        usmale/ thirteen/|   M|   1960-12-16|            -| true|          @F10@|              -|
-|       @I26789705@|         usfem/ thirteen/|   F|   1961-12-16|            -| true|          @F10@|              -|
-|       @I26789706@|   usmalechild/ thirteen/|   M|   1985-12-16|            -| true|              -|          @F10@|
-|       @I26789707@|    usfemchild/ thirteen/|   F|   1986-03-16|            -| true|              -|          @F10@|
-|       @I26789708@|     usmale/ thirteenone/|   M|   1960-12-16|            -| true|          @F11@|              -|
-|       @I26789709@|      usfem/ thirteenone/|   F|   1961-12-16|            -| true|          @F11@|              -|
-|       @I26789710@|usmalechild/ thirteenone/|   M|   1985-12-16|            -| true|              -|          @F11@|
-|       @I26789711@| usfemchild/ thirteenone/|   F|   1985-12-17|            -| true|              -|          @F11@|
-|       @I26789712@|        usmale/ fourteen/|   M|   1960-12-16|            -| true|          @F12@|              -|
-|       @I26789713@|         usfem/ fourteen/|   F|   1961-12-16|            -| true|          @F12@|              -|
-|       @I26789714@|         usone/ fourteen/|   M|   1985-12-16|            -| true|              -|          @F12@|
-|       @I26789715@|         ustwo/ fourteen/|   M|   1985-12-16|            -| true|              -|          @F12@|
-|       @I26789716@|       usthree/ fourteen/|   M|   1985-12-16|            -| true|              -|          @F12@|
-|       @I26789717@|        usfour/ fourteen/|   M|   1985-12-17|            -| true|              -|          @F12@|
-|       @I26789718@|        usfive/ fourteen/|   F|   1985-12-17|            -| true|              -|          @F12@|
-|       @I26789719@|         ussix/ fourteen/|   F|   1985-12-17|            -| true|              -|          @F12@|
-|       @I26789720@|       usseven/ fourteen/|   F|   1985-12-17|            -| true|              -|          @F12@|
-|       @I26789721@|       useight/ fourteen/|   F|   1986-12-17|            -| true|              -|          @F12@|
-|       @I26789722@|        usnine/ fourteen/|   M|   1986-12-17|            -| true|              -|          @F12@|
-|       @I26789723@|         usten/ fourteen/|   F|   1986-12-17|            -| true|              -|          @F12@|
-|       @I26789724@|      useleven/ fourteen/|   F|   1987-12-17|            -| true|              -|          @F12@|
-|       @I26789725@|      ustwelve/ fourteen/|   M|   1988-12-17|            -| true|              -|          @F12@|
-|       @I26789726@|    usthirteen/ fourteen/|   M|   1989-12-17|            -| true|              -|          @F12@|
-|       @I26789727@|    usfourteen/ fourteen/|   F|   1990-12-17|            -| true|              -|          @F12@|
-|       @I26789728@|     usfifteen/ fourteen/|   F|   1991-12-17|            -| true|              -|          @F12@|
-|       @I26789729@|     ussixteen/ fourteen/|   M|   1991-12-17|            -| true|              -|          @F12@|
-|       @I26789730@|         usmale/ sixteen/|   M|   1960-12-16|            -| true|          @F13@|              -|
-|       @I26789731@|          usfem/ sxiteen/|   F|   1961-12-16|            -| true|          @F13@|              -|
-|       @I26789732@|    usmalechild/ sixteen/|   M|   1985-12-16|            -| true|              -|          @F13@|
-|       @I26789733@|     usmaletwo/ sixteens/|   M|   1986-03-16|            -| true|              -|          @F13@|
-|       @I26789734@|      usmale/ sixteenone/|   M|   1960-12-16|            -| true|          @F14@|              -|
-|       @I26789735@|       usfem/ sixteenone/|   F|   1961-12-16|            -| true|          @F14@|              -|
-|       @I26789736@| usmalechild/ sixteenone/|   M|   1985-12-16|            -| true|              -|          @F14@|
-|       @I26789737@|    usfemchild/ sixteens/|   F|   1985-12-17|            -| true|              -|          @F14@|
-|       @I26789738@|        usmale/ nineteen/|   M|   1960-12-16|            -| true|          @F15@|              -|
-|       @I26789739@|         usfem/ nineteen/|   F|   1961-12-16|            -| true|          @F15@|              -|
-|       @I26789740@|   usmalechild/ nineteen/|   M|   1985-12-16|            -| true|          @F16@|          @F15@|
-|       @I26789741@|     usmaletwo/ nineteen/|   M|   1985-12-16|            -| true|          @F17@|          @F15@|
-|       @I26789742@|      usfemone/ nineteen/|   F|   1986-12-16|            -| true|          @F16@|              -|
-|       @I26789743@|      usmalecc/ nineteen/|   M|   2011-12-16|            -| true|          @F18@|          @F16@|
-|       @I26789744@|      usfemtwo/ nineteen/|   F|   1986-12-16|            -| true|          @F17@|              -|
-|       @I26789745@|       usfemcc/ nineteen/|   F|   2011-12-16|            -| true|          @F18@|          @F17@|
-|       @I26789746@|          usmale/ twenty/|   M|   1948-12-16|            -| true|          @F19@|              -|
-|       @I26789747@|           usfem/ twenty/|   F|   1949-12-16|            -| true|          @F19@|              -|
-|       @I26789748@|     usmalechild/ twenty/|   M|   1971-12-16|            -| true|          @F20@|          @F19@|
-|       @I26789749@|      usfemchild/ twenty/|   M|   1980-12-16|            -| true|          @F21@|          @F19@|
-|       @I26789750@|        usfemone/ twenty/|   F|   1972-12-16|            -| true|          @F20@|              -|
-|       @I26789751@|        usmalecc/ twenty/|   M|   1993-12-16|            -| true|          @F21@|          @F20@|
-|       @I26789752@|        usfem/ twentuone/|   F|   1990-12-16|            -| true|          @F22@|              -|
-|       @I26789753@|       usmale/ twentyone/|   M|   1990-12-16|            -| true|          @F22@|              -|
-|       @I26789754@|     usfem/ twentyoneone/|   M|   1941-12-16|            -| true|          @F23@|              -|
-|       @I26789755@|    usmale/ twentyoneone/|   M|   1940-12-16|            -| true|          @F23@|              -|
-+------------------+-------------------------+----+-------------+-------------+-----+---------------+---------------+
++------------------+--------------------------+----+-------------+-------------+-----+-----+---------------+---------------+
+|                ID|                      Name| SEX|   BIRTH DATE|   DEATH DATE|ALIVE|  AGE|  FAMILY_SPOUSE|   FAMILY_CHILD|
++------------------+--------------------------+----+-------------+-------------+-----+-----+---------------+---------------+
+|   @I222448906743@|                sam /raud/|   M|   1972-08-09|   2021-04-30|false|   48|           @F1@|              -|
+|   @I222448906745@|              maxxy /raud/|   F|   1978-12-18|            -| true|   44|           @F1@|              -|
+|   @I222448907013@|             porter /raud/|   M|   1997-06-30|            -| true|   25|           @F4@|           @F1@|
+|   @I222448907057@|            marinda /raud/|   F|   1997-02-22|            -| true|   26|           @F4@|           @F2@|
+|   @I222448907189@|              rolie /raud/|   F|   2021-03-01|            -| true|    2|              -|           @F4@|
+|   @I222448907396@|               krem /paul/|   M|   1972-01-07|            -| true|   51|           @F2@|              -|
+|   @I222448907463@|            kiley /karter/|   F|   1976-09-30|            -| true|   46|           @F3@|              -|
+|   @I222448907570@|             park /karter/|   M|   1978-06-23|            -| true|   44|           @F3@|              -|
+|   @I222448907866@|            fatin /karter/|   M|   2007-12-14|            -| true|   15|              -|           @F3@|
+|       @I26789601@|             crank /hease/|   M|   2023-06-23|            -| true|    0|           @F7@|           @F5@|
+|       @I26789602@|               Jim /hease/|   M|   1993-05-28|   1993-01-03|false|    0|           @F5@|              -|
+|       @I26789603@|              alys /hease/|   F|   1995-07-16|            -| true|   27|           @F5@|              -|
+|       @I26789604@|             dummy/ dummy/|   M|   1830-07-16|            -| true|  192|           @F6@|              -|
+|       @I26789605@|             maddy/ dummy/|   F|   1860-07-16|   2015-08-16|false|  155|           @F6@|              -|
+|       @I26789606@|             Adani/ dummy/|   F|   2015-12-16|            -| true|    7|           @F7@|           @F6@|
+|       @I26789700@|         usmale/ eighteen/|   M|   1960-12-16|            -| true|   62|           @F8@|              -|
+|       @I26789701@|          usfem/ eighteen/|   F|   1961-12-16|            -| true|   61|           @F8@|              -|
+|       @I26789702@|    usmalechild/ eighteen/|   M|   1985-12-16|            -| true|   37|           @F9@|           @F8@|
+|       @I26789703@|     usfemchild/ eighteen/|   F|   1986-12-16|            -| true|   36|           @F9@|           @F8@|
+|       @I26789704@|         usmale/ thirteen/|   M|   1960-12-16|            -| true|   62|          @F10@|              -|
+|       @I26789705@|          usfem/ thirteen/|   F|   1961-12-16|            -| true|   61|          @F10@|              -|
+|       @I26789706@|    usmalechild/ thirteen/|   M|   1985-12-16|            -| true|   37|              -|          @F10@|
+|       @I26789707@|     usfemchild/ thirteen/|   F|   1986-03-16|            -| true|   37|              -|          @F10@|
+|       @I26789708@|      usmale/ thirteenone/|   M|   1960-12-16|            -| true|   62|          @F11@|              -|
+|       @I26789709@|       usfem/ thirteenone/|   F|   1961-12-16|            -| true|   61|          @F11@|              -|
+|       @I26789710@| usmalechild/ thirteenone/|   M|   1985-12-16|            -| true|   37|              -|          @F11@|
+|       @I26789711@|  usfemchild/ thirteenone/|   F|   1985-12-17|            -| true|   37|              -|          @F11@|
+|       @I26789712@|         usmale/ fourteen/|   M|   1960-12-16|            -| true|   62|          @F12@|              -|
+|       @I26789713@|          usfem/ fourteen/|   F|   1961-12-16|            -| true|   61|          @F12@|              -|
+|       @I26789714@|          usone/ fourteen/|   M|   1985-12-16|            -| true|   37|              -|          @F12@|
+|       @I26789715@|          ustwo/ fourteen/|   M|   1985-12-16|            -| true|   37|              -|          @F12@|
+|       @I26789716@|        usthree/ fourteen/|   M|   1985-12-16|            -| true|   37|              -|          @F12@|
+|       @I26789717@|         usfour/ fourteen/|   M|   1985-12-17|            -| true|   37|              -|          @F12@|
+|       @I26789718@|         usfive/ fourteen/|   F|   1985-12-17|            -| true|   37|              -|          @F12@|
+|       @I26789719@|          ussix/ fourteen/|   F|   1985-12-17|            -| true|   37|              -|          @F12@|
+|       @I26789720@|        usseven/ fourteen/|   F|   1985-12-17|            -| true|   37|              -|          @F12@|
+|       @I26789721@|        useight/ fourteen/|   F|   1986-12-17|            -| true|   36|              -|          @F12@|
+|       @I26789722@|         usnine/ fourteen/|   M|   1986-12-17|            -| true|   36|              -|          @F12@|
+|       @I26789723@|          usten/ fourteen/|   F|   1986-12-17|            -| true|   36|              -|          @F12@|
+|       @I26789724@|       useleven/ fourteen/|   F|   1987-12-17|            -| true|   35|              -|          @F12@|
+|       @I26789725@|       ustwelve/ fourteen/|   M|   1988-12-17|            -| true|   34|              -|          @F12@|
+|       @I26789726@|     usthirteen/ fourteen/|   M|   1989-12-17|            -| true|   33|              -|          @F12@|
+|       @I26789727@|     usfourteen/ fourteen/|   F|   1990-12-17|            -| true|   32|              -|          @F12@|
+|       @I26789728@|      usfifteen/ fourteen/|   F|   1991-12-17|            -| true|   31|              -|          @F12@|
+|       @I26789729@|      ussixteen/ fourteen/|   M|   1991-12-17|            -| true|   31|              -|          @F12@|
+|       @I26789730@|          usmale/ sixteen/|   M|   1960-12-16|            -| true|   62|          @F13@|              -|
+|       @I26789731@|           usfem/ sxiteen/|   F|   1961-12-16|            -| true|   61|          @F13@|              -|
+|       @I26789732@|     usmalechild/ sixteen/|   M|   1985-12-16|            -| true|   37|              -|          @F13@|
+|       @I26789733@|      usmaletwo/ sixteens/|   M|   1986-03-16|            -| true|   37|              -|          @F13@|
+|       @I26789734@|       usmale/ sixteenone/|   M|   1960-12-16|            -| true|   62|          @F14@|              -|
+|       @I26789735@|        usfem/ sixteenone/|   F|   1961-12-16|            -| true|   61|          @F14@|              -|
+|       @I26789736@|  usmalechild/ sixteenone/|   M|   1985-12-16|            -| true|   37|              -|          @F14@|
+|       @I26789737@|     usfemchild/ sixteens/|   F|   1985-12-17|            -| true|   37|              -|          @F14@|
+|       @I26789738@|         usmale/ nineteen/|   M|   1960-12-16|            -| true|   62|          @F15@|              -|
+|       @I26789739@|          usfem/ nineteen/|   F|   1961-12-16|            -| true|   61|          @F15@|              -|
+|       @I26789740@|    usmalechild/ nineteen/|   M|   1985-12-16|            -| true|   37|          @F16@|          @F15@|
+|       @I26789741@|      usmaletwo/ nineteen/|   M|   1985-12-16|            -| true|   37|          @F17@|          @F15@|
+|       @I26789742@|       usfemone/ nineteen/|   F|   1986-12-16|            -| true|   36|          @F16@|              -|
+|       @I26789743@|       usmalecc/ nineteen/|   M|   2011-12-16|            -| true|   11|          @F18@|          @F16@|
+|       @I26789744@|       usfemtwo/ nineteen/|   F|   1986-12-16|            -| true|   36|          @F17@|              -|
+|       @I26789745@|        usfemcc/ nineteen/|   F|   2011-12-16|            -| true|   11|          @F18@|          @F17@|
+|       @I26789746@|           usmale/ twenty/|   M|   1948-12-16|            -| true|   74|          @F19@|              -|
+|       @I26789747@|            usfem/ twenty/|   F|   1949-12-16|            -| true|   73|          @F19@|              -|
+|       @I26789748@|      usmalechild/ twenty/|   M|   1971-12-16|            -| true|   51|          @F20@|          @F19@|
+|       @I26789749@|       usfemchild/ twenty/|   M|   1980-12-16|            -| true|   42|          @F21@|          @F19@|
+|       @I26789750@|         usfemone/ twenty/|   F|   1972-12-16|            -| true|   50|          @F20@|              -|
+|       @I26789751@|         usmalecc/ twenty/|   M|   1993-12-16|            -| true|   29|          @F21@|          @F20@|
+|       @I26789752@|         usfem/ twentuone/|   F|   1990-12-16|            -| true|   32|          @F22@|              -|
+|       @I26789753@|        usmale/ twentyone/|   M|   1990-12-16|            -| true|   32|          @F22@|              -|
+|       @I26789754@|      usfem/ twentyoneone/|   M|   1941-12-16|            -| true|   81|          @F23@|              -|
+|       @I26789755@|     usmale/ twentyoneone/|   M|   1940-12-16|            -| true|   82|          @F23@|              -|
+|       @I26789800@|      usmale/ twentythree/|   M|   1940-12-16|            -| true|   82|          @F24@|              -|
+|       @I26789801@|       usfem/ twentythree/|   F|   1968-12-16|            -| true|   54|          @F24@|              -|
+|       @I26789802@|      usmale/ twentythree/|   M|   1940-12-16|            -| true|   82|          @F33@|              -|
+|       @I26789803@|    usfemone/ twentythree/|   F|   1942-12-16|            -| true|   80|          @F33@|              -|
+|       @I26789804@|       usfem/ twentythree/|   F|   1968-12-16|            -| true|   54|              -|          @F33@|
+|       @I26789805@|       usmale/ twentyfour/|   M|   1940-12-16|            -| true|   82|          @F25@|              -|
+|       @I26789806@|        usfem/ twentyfour/|   F|   1942-12-16|            -| true|   80|          @F25@|              -|
+|       @I26789807@|       usmale/ twentyfour/|   M|   1944-12-16|            -| true|   78|          @F26@|              -|
+|       @I26789808@|        usfem/ twentyfour/|   F|   1943-12-16|            -| true|   79|          @F26@|              -|
+|       @I26789809@|    usmale/ twentyfourone/|   M|   1980-12-21|            -| true|   42|          @F27@|              -|
+|       @I26789810@|     usfem/ twentyfourone/|   F|   1985-03-16|            -| true|   38|          @F27@|              -|
+|       @I26789811@|    usmale/ twentyfourone/|   M|   1979-02-19|            -| true|   44|          @F28@|              -|
+|       @I26789812@|     usfem/ twentyfourone/|   F|   1982-01-16|            -| true|   41|          @F28@|              -|
+|       @I26789813@|       usmale/ twentyfive/|   M|   1944-07-06|            -| true|   78|          @F29@|              -|
+|       @I26789814@|        usfem/ twentyfive/|   F|   1943-03-30|            -| true|   80|          @F29@|              -|
+|       @I26789815@|    usmaleone/ twentyfive/|   M|   1980-06-30|            -| true|   42|              -|          @F29@|
+|       @I26789816@|    usmaleone/ twentyfive/|   M|   1980-06-30|            -| true|   42|              -|          @F29@|
+|       @I26789817@|    usmale/ twentyfiveone/|   M|   1944-07-06|            -| true|   78|          @F30@|              -|
+|       @I26789818@|     usfem/ twentyfiveone/|   F|   1943-03-30|            -| true|   80|          @F30@|              -|
+|       @I26789819@| usfemeone/ twentyfiveone/|   F|   1980-06-30|            -| true|   42|              -|          @F30@|
+|       @I26789820@|  usfemone/ twentyfiveone/|   F|   1980-06-30|            -| true|   42|              -|          @F30@|
+|       @I26789821@|      usmale/ twentyseven/|   M|   1989-07-01|            -| true|   33|          @F31@|              -|
+|       @I26789822@|       usfem/ twentyseven/|   F|   1990-03-03|            -| true|   33|          @F31@|              -|
+|       @I26789823@|   usfemeone/ twentyseven/|   F|   2016-06-30|            -| true|    6|              -|          @F31@|
+|       @I26789824@|   usmaleone/ twentyseven/|   M|   2017-12-31|            -| true|    5|              -|          @F31@|
+|       @I26789825@|   usmale/ twentysevenone/|   M|   1971-07-01|            -| true|   51|          @F32@|              -|
+|       @I26789826@|    usfem/ twentysevenone/|   F|   1973-03-03|            -| true|   50|          @F32@|              -|
+|       @I26789827@|usmaleone/ twentysevenone/|   M|   2001-06-30|            -| true|   21|              -|          @F32@|
++------------------+--------------------------+----+-------------+-------------+-----+-----+---------------+---------------+
 
 Families
-+----------+-------------------------+-------------------------+-------------+-------------+-----------------------------------------+
-| Family_ID|             Husband Name|                Wife Name|Marriage Date| Divorce Date|                                Children|
-+----------+-------------------------+-------------------------+-------------+-------------+-----------------------------------------+
-|      @F1@|               sam /raud/|             maxxy /raud/|   1996-08-08|            -|                       [@I222448907013@]|
-|     @F10@|        usmale/ thirteen/|         usfem/ thirteen/|   1983-08-16|            -|              [@I26789706@, @I26789707@]|
-|     @F11@|     usmale/ thirteenone/|      usfem/ thirteenone/|   1983-08-16|            -|              [@I26789710@, @I26789711@]|
-|     @F12@|        usmale/ fourteen/|         usfem/ fourteen/|   1983-08-16|            -|[@I26789714@, @I26789715@, @I26789716@, @I26789717@, @I26789718@, @I26789719@, @I26789720@, @I26789721@, @I26789722@, @I26789723@, @I26789724@, @I26789725@, @I26789726@, @I26789727@, @I26789728@, @I26789729@]|
-|     @F13@|         usmale/ sixteen/|          usfem/ sxiteen/|   1983-08-16|            -|              [@I26789732@, @I26789733@]|
-|     @F14@|      usmale/ sixteenone/|       usfem/ sixteenone/|   1983-08-16|            -|              [@I26789736@, @I26789737@]|
-|     @F15@|        usmale/ nineteen/|         usfem/ nineteen/|   1983-08-16|            -|              [@I26789740@, @I26789741@]|
-|     @F16@|   usmalechild/ nineteen/|      usfemone/ nineteen/|   2010-08-16|            -|                           [@I26789743@]|
-|     @F17@|     usmaletwo/ nineteen/|      usfemtwo/ nineteen/|   2010-08-16|            -|                           [@I26789745@]|
-|     @F18@|      usmalecc/ nineteen/|       usfemcc/ nineteen/|   2026-08-16|            -|                                      NA|
-|     @F19@|          usmale/ twenty/|           usfem/ twenty/|   1970-08-16|            -|              [@I26789748@, @I26789749@]|
-|      @F2@|              krem /paul/|           kiley /karter/|   1995-02-18|   2001-09-07|                       [@I222448907057@]|
-|     @F20@|     usmalechild/ twenty/|        usfemone/ twenty/|   1992-08-16|            -|                           [@I26789751@]|
-|     @F21@|        usmalecc/ twenty/|      usfemchild/ twenty/|   2018-08-16|            -|                                      NA|
-|     @F22@|        usfem/ twentuone/|       usmale/ twentyone/|   2018-08-16|            -|                                      NA|
-|     @F23@|     usfem/ twentyoneone/|    usmale/ twentyoneone/|   1982-08-16|            -|                                      NA|
-|      @F3@|            park /karter/|           kiley /karter/|   2007-06-09|            -|                       [@I222448907866@]|
-|      @F4@|            porter /raud/|           marinda /raud/|   2021-02-02|            -|                       [@I222448907189@]|
-|      @F5@|              Jim /hease/|             alys /hease/|   1995-06-16|   1995-06-12|                           [@I26789601@]|
-|      @F6@|            dummy/ dummy/|            maddy/ dummy/|   2017-08-16|   2016-08-16|                           [@I26789606@]|
-|      @F7@|            crank /hease/|            Adani/ dummy/|   2026-08-16|            -|                                      NA|
-|      @F8@|        usmale/ eighteen/|         usfem/ eighteen/|   1983-08-16|            -|              [@I26789702@, @I26789703@]|
-|      @F9@|   usmalechild/ eighteen/|    usfemchild/ eighteen/|   2010-08-16|            -|                                      NA|
-+----------+-------------------------+-------------------------+-------------+-------------+-----------------------------------------+
++----------+--------------------------+--------------------------+-------------+-------------+-----------------------------------------+
+| Family_ID|              Husband Name|                 Wife Name|Marriage Date| Divorce Date|                                Children|
++----------+--------------------------+--------------------------+-------------+-------------+-----------------------------------------+
+|      @F1@|                sam /raud/|              maxxy /raud/|   1996-08-08|            -|                       [@I222448907013@]|
+|     @F10@|         usmale/ thirteen/|          usfem/ thirteen/|   1983-08-16|            -|              [@I26789706@, @I26789707@]|
+|     @F11@|      usmale/ thirteenone/|       usfem/ thirteenone/|   1983-08-16|            -|              [@I26789710@, @I26789711@]|
+|     @F12@|         usmale/ fourteen/|          usfem/ fourteen/|   1983-08-16|            -|[@I26789714@, @I26789715@, @I26789716@, @I26789717@, @I26789718@, @I26789719@, @I26789720@, @I26789721@, @I26789722@, @I26789723@, @I26789724@, @I26789725@, @I26789726@, @I26789727@, @I26789728@, @I26789729@]|
+|     @F13@|          usmale/ sixteen/|           usfem/ sxiteen/|   1983-08-16|            -|              [@I26789732@, @I26789733@]|
+|     @F14@|       usmale/ sixteenone/|        usfem/ sixteenone/|   1983-08-16|            -|              [@I26789736@, @I26789737@]|
+|     @F15@|         usmale/ nineteen/|          usfem/ nineteen/|   1983-08-16|            -|              [@I26789740@, @I26789741@]|
+|     @F16@|    usmalechild/ nineteen/|       usfemone/ nineteen/|   2010-08-16|            -|                           [@I26789743@]|
+|     @F17@|      usmaletwo/ nineteen/|       usfemtwo/ nineteen/|   2010-08-16|            -|                           [@I26789745@]|
+|     @F18@|       usmalecc/ nineteen/|        usfemcc/ nineteen/|   2026-08-16|            -|                                      NA|
+|     @F19@|           usmale/ twenty/|            usfem/ twenty/|   1970-08-16|            -|              [@I26789748@, @I26789749@]|
+|      @F2@|               krem /paul/|            kiley /karter/|   1995-02-18|   2001-09-07|                       [@I222448907057@]|
+|     @F20@|      usmalechild/ twenty/|         usfemone/ twenty/|   1992-08-16|            -|                           [@I26789751@]|
+|     @F21@|         usmalecc/ twenty/|       usfemchild/ twenty/|   2018-08-16|            -|                                      NA|
+|     @F22@|         usfem/ twentuone/|        usmale/ twentyone/|   2018-08-16|            -|                                      NA|
+|     @F23@|      usfem/ twentyoneone/|     usmale/ twentyoneone/|   1982-08-16|            -|                                      NA|
+|     @F24@|      usmale/ twentythree/|       usfem/ twentythree/|   1987-08-16|            -|                                      NA|
+|     @F25@|       usmale/ twentyfour/|        usfem/ twentyfour/|   1972-01-18|            -|                                      NA|
+|     @F26@|       usmale/ twentyfour/|        usfem/ twentyfour/|   1972-01-18|            -|                                      NA|
+|     @F27@|    usmale/ twentyfourone/|     usfem/ twentyfourone/|   2006-05-21|            -|                                      NA|
+|     @F28@|    usmale/ twentyfourone/|     usfem/ twentyfourone/|   2006-05-21|            -|                                      NA|
+|     @F29@|       usmale/ twentyfive/|        usfem/ twentyfive/|   1976-08-16|            -|              [@I26789815@, @I26789816@]|
+|      @F3@|             park /karter/|            kiley /karter/|   2007-06-09|            -|                       [@I222448907866@]|
+|     @F30@|    usmale/ twentyfiveone/|     usfem/ twentyfiveone/|   1978-11-09|            -|              [@I26789819@, @I26789820@]|
+|     @F32@|   usmale/ twentysevenone/|    usfem/ twentysevenone/|            -|            -|                                      NA|
+|     @F33@|      usmale/ twentythree/|    usfemone/ twentythree/|   1966-08-16|            -|                           [@I26789804@]|
+|      @F4@|             porter /raud/|            marinda /raud/|   2021-02-02|            -|                       [@I222448907189@]|
+|      @F5@|               Jim /hease/|              alys /hease/|   1995-06-16|   1995-06-12|                           [@I26789601@]|
+|      @F6@|             dummy/ dummy/|             maddy/ dummy/|   2017-08-16|   2016-08-16|                           [@I26789606@]|
+|      @F7@|             crank /hease/|             Adani/ dummy/|   2026-08-16|            -|                                      NA|
+|      @F8@|         usmale/ eighteen/|          usfem/ eighteen/|   1983-08-16|            -|              [@I26789702@, @I26789703@]|
+|      @F9@|    usmalechild/ eighteen/|     usfemchild/ eighteen/|   2010-08-16|            -|                                      NA|
++----------+--------------------------+--------------------------+-------------+-------------+-----------------------------------------+
 
 Errors
 Error:User Story 1:Individual: @I26789601@ Birthday is in future 2023-06-23 00:00:00.0
 Error:User Story 3:Individual: @I26789602@Death Before Birth
 Error:User Story 7:Individual : @I26789604@Age greater than 150
+Error:User Story 23:Individual : @I26789802@ Already other indivudal with same name and date of birth exist
+Error:User Story 23:Individual : @I26789804@ Already other indivudal with same name and date of birth exist
+Error:User Story 23:Individual : @I26789816@ Already other indivudal with same name and date of birth exist
+Error : User Story 26:Indiivdual :@I26789821@ is missing corresponding entries or having invalid entries in families description
+Error : User Story 26:Indiivdual :@I26789822@ is missing corresponding entries or having invalid entries in families description
+Error : User Story 26:Indiivdual :@I26789823@ is missing corresponding entries or having invalid entries in families description
+Error : User Story 26:Indiivdual :@I26789824@ is missing corresponding entries or having invalid entries in families description
+Error : User Story 26:Indiivdual :@I26789827@ is missing corresponding entries or having invalid entries in families description
 Anamoly: User Story 13 : Family :@F10@ There are invalid birth spacing for children
 Anamoly: User Story 14 : Family :@F12@ More than 5 births at same time
 Anamoly: User Story 15: Family :@F12@ More than 15 children in the family
@@ -1247,6 +1692,9 @@ Anamoly: User Story 20: Family :@F21@ Aunt-nephew or Uncle-Neice Marraige are no
 Error: User Story 21: Family :@F21@ Genders of the HUsband and wife are marked wrong
 Error: User Story 21: Family :@F22@ Genders of the HUsband and wife are marked wrong
 Error: User Story 21: Family :@F23@ Genders of the HUsband and wife are marked wrong
+Error: User Strory 24: Family :@F26@ Already another family exist with same spouse details
+Error: User Strory 24: Family :@F28@ Already another family exist with same spouse details
+Error: User Story 25: Family : @F29@ It have duplicate child enteries
 Error : User Story 2 : Family :@F5@ Marriage Should be after thebirth of husband and wife
 Error : User Story 4 : Family :@F5@ Marriage Should be before the divorce
 Error : User Story 5 : Family :@F5@ Marriage Should be before the death
@@ -1261,3 +1709,89 @@ Anamoly: User Story 18: Family :@F9@ Siblings marraige is not allowed
 Anamoly :User Story 8: Child Id : @I26789606@of Family : @F6@ Birth of child Before Marraige
 Anamoly :User Story 9: Child Id : @I26789606@of Family : @F6@ Birth of child After death of parents
 Anamoly :User Story 12: Child Id:@I26789606@of Family : @F6@ Parents were too old at the child's birth
+User Story 29:Deceased Individuals 
++------------------+--------------------------+----+-------------+-------------+-----+---------------+---------------+
+|                ID|                      Name| SEX|   BIRTH DATE|   DEATH DATE|  AGE|  FAMILY_SPOUSE|   FAMILY_CHILD|
++------------------+--------------------------+----+-------------+-------------+-----+---------------+---------------+
+|   @I222448906743@|                sam /raud/|   M|   1972-08-09|   2021-04-30|   48|           @F1@|              -|
+|       @I26789602@|               Jim /hease/|   M|   1993-05-28|   1993-01-03|    0|           @F5@|              -|
+|       @I26789605@|             maddy/ dummy/|   F|   1860-07-16|   2015-08-16|  155|           @F6@|              -|
++------------------+--------------------------+----+-------------+-------------+-----+---------------+---------------+
+User Story 30: Married Individuals Alive 
++---------------+------------------+--------------------------+------------------+--------------------------+
+|      FAMILY ID|        HUSBAND_ID|              HUSBAND NAME|           WIFE_ID|                 WIFE NAME|
++---------------+------------------+--------------------------+------------------+--------------------------+
+|           @F1@|                 -|                  Deceased|   @I222448906745@|              maxxy /raud/|
+|          @F10@|       @I26789704@|         usmale/ thirteen/|       @I26789705@|          usfem/ thirteen/|
+|          @F11@|       @I26789708@|      usmale/ thirteenone/|       @I26789709@|       usfem/ thirteenone/|
+|          @F12@|       @I26789712@|         usmale/ fourteen/|       @I26789713@|          usfem/ fourteen/|
+|          @F13@|       @I26789730@|          usmale/ sixteen/|       @I26789731@|           usfem/ sxiteen/|
+|          @F14@|       @I26789734@|       usmale/ sixteenone/|       @I26789735@|        usfem/ sixteenone/|
+|          @F15@|       @I26789738@|         usmale/ nineteen/|       @I26789739@|          usfem/ nineteen/|
+|          @F16@|       @I26789740@|    usmalechild/ nineteen/|       @I26789742@|       usfemone/ nineteen/|
+|          @F17@|       @I26789741@|      usmaletwo/ nineteen/|       @I26789744@|       usfemtwo/ nineteen/|
+|          @F18@|       @I26789743@|       usmalecc/ nineteen/|       @I26789745@|        usfemcc/ nineteen/|
+|          @F19@|       @I26789746@|           usmale/ twenty/|       @I26789747@|            usfem/ twenty/|
+|           @F2@|   @I222448907396@|               krem /paul/|   @I222448907463@|            kiley /karter/|
+|          @F20@|       @I26789748@|      usmalechild/ twenty/|       @I26789750@|         usfemone/ twenty/|
+|          @F21@|       @I26789751@|         usmalecc/ twenty/|       @I26789749@|       usfemchild/ twenty/|
+|          @F22@|       @I26789752@|         usfem/ twentuone/|       @I26789753@|        usmale/ twentyone/|
+|          @F23@|       @I26789754@|      usfem/ twentyoneone/|       @I26789755@|     usmale/ twentyoneone/|
+|          @F24@|       @I26789800@|      usmale/ twentythree/|       @I26789801@|       usfem/ twentythree/|
+|          @F25@|       @I26789805@|       usmale/ twentyfour/|       @I26789806@|        usfem/ twentyfour/|
+|          @F26@|       @I26789807@|       usmale/ twentyfour/|       @I26789808@|        usfem/ twentyfour/|
+|          @F27@|       @I26789809@|    usmale/ twentyfourone/|       @I26789810@|     usfem/ twentyfourone/|
+|          @F28@|       @I26789811@|    usmale/ twentyfourone/|       @I26789812@|     usfem/ twentyfourone/|
+|          @F29@|       @I26789813@|       usmale/ twentyfive/|       @I26789814@|        usfem/ twentyfive/|
+|           @F3@|   @I222448907570@|             park /karter/|   @I222448907463@|            kiley /karter/|
+|          @F30@|       @I26789817@|    usmale/ twentyfiveone/|       @I26789818@|     usfem/ twentyfiveone/|
+|          @F32@|       @I26789825@|   usmale/ twentysevenone/|       @I26789826@|    usfem/ twentysevenone/|
+|          @F33@|       @I26789802@|      usmale/ twentythree/|       @I26789803@|    usfemone/ twentythree/|
+|           @F4@|   @I222448907013@|             porter /raud/|   @I222448907057@|            marinda /raud/|
+|           @F5@|                 -|                  Deceased|       @I26789603@|              alys /hease/|
+|           @F6@|       @I26789604@|             dummy/ dummy/|                 -|                  Deceased|
+|           @F7@|       @I26789601@|             crank /hease/|       @I26789606@|             Adani/ dummy/|
+|           @F8@|       @I26789700@|         usmale/ eighteen/|       @I26789701@|          usfem/ eighteen/|
+|           @F9@|       @I26789702@|    usmalechild/ eighteen/|       @I26789703@|     usfemchild/ eighteen/|
++---------------+------------------+--------------------------+------------------+--------------------------+
+User Story 31 :UnMarried Living Individuals
++------------------+--------------------------+----+-------------+-----+
+|                ID|                      Name| SEX|   BIRTH DATE|  AGE|
++------------------+--------------------------+----+-------------+-----+
+|   @I222448907189@|             rolie /raud/|   F|   2021-03-01|    2|
+|   @I222448907866@|           fatin /karter/|   M|   2007-12-14|   15|
+|       @I26789706@|   usmalechild/ thirteen/|   M|   1985-12-16|   37|
+|       @I26789707@|    usfemchild/ thirteen/|   F|   1986-03-16|   37|
+|       @I26789710@|usmalechild/ thirteenone/|   M|   1985-12-16|   37|
+|       @I26789711@| usfemchild/ thirteenone/|   F|   1985-12-17|   37|
+|       @I26789714@|         usone/ fourteen/|   M|   1985-12-16|   37|
+|       @I26789715@|         ustwo/ fourteen/|   M|   1985-12-16|   37|
+|       @I26789716@|       usthree/ fourteen/|   M|   1985-12-16|   37|
+|       @I26789717@|        usfour/ fourteen/|   M|   1985-12-17|   37|
+|       @I26789718@|        usfive/ fourteen/|   F|   1985-12-17|   37|
+|       @I26789719@|         ussix/ fourteen/|   F|   1985-12-17|   37|
+|       @I26789720@|       usseven/ fourteen/|   F|   1985-12-17|   37|
+|       @I26789721@|       useight/ fourteen/|   F|   1986-12-17|   36|
+|       @I26789722@|        usnine/ fourteen/|   M|   1986-12-17|   36|
+|       @I26789723@|         usten/ fourteen/|   F|   1986-12-17|   36|
+|       @I26789724@|      useleven/ fourteen/|   F|   1987-12-17|   35|
+|       @I26789725@|      ustwelve/ fourteen/|   M|   1988-12-17|   34|
+|       @I26789726@|    usthirteen/ fourteen/|   M|   1989-12-17|   33|
+|       @I26789727@|    usfourteen/ fourteen/|   F|   1990-12-17|   32|
+|       @I26789728@|     usfifteen/ fourteen/|   F|   1991-12-17|   31|
+|       @I26789729@|     ussixteen/ fourteen/|   M|   1991-12-17|   31|
+|       @I26789732@|    usmalechild/ sixteen/|   M|   1985-12-16|   37|
+|       @I26789733@|     usmaletwo/ sixteens/|   M|   1986-03-16|   37|
+|       @I26789736@| usmalechild/ sixteenone/|   M|   1985-12-16|   37|
+|       @I26789737@|    usfemchild/ sixteens/|   F|   1985-12-17|   37|
+|       @I26789804@|      usfem/ twentythree/|   F|   1968-12-16|   54|
+|       @I26789815@|   usmaleone/ twentyfive/|   M|   1980-06-30|   42|
+|       @I26789816@|   usmaleone/ twentyfive/|   M|   1980-06-30|   42|
+|       @I26789819@|usfemeone/ twentyfiveone/|   F|   1980-06-30|   42|
+|       @I26789820@| usfemone/ twentyfiveone/|   F|   1980-06-30|   42|
+|       @I26789821@|     usmale/ twentyseven/|   M|   1989-07-01|   33|
+|       @I26789822@|      usfem/ twentyseven/|   F|   1990-03-03|   33|
+|       @I26789823@|  usfemeone/ twentyseven/|   F|   2016-06-30|    6|
+|       @I26789824@|  usmaleone/ twentyseven/|   M|   2017-12-31|    5|
+|       @I26789827@|usmaleone/ twentysevenone/|   M|   2001-06-30|   21|
++------------------+--------------------------+----+-------------+-----+
