@@ -1,64 +1,48 @@
-public String  listRecentDeaths(ArrayList<Individuals> indList) {
+public String listUpcomingBirthDays(ArrayList<Individuals> indList) {
 		Formatter fmt = new Formatter();
 		fmt.format("+------------------+--------------------------+-------------+\n");
-		fmt.format("|%18s|%26s|%13s|\n", "ID","Name","DEATH_DATE");
+		fmt.format("|%18s|%26s|%13s|\n", "ID","Name","BIRTH_DATE");
 		fmt.format("+------------------+--------------------------+-------------+\n");
 		for(Individuals i : indList) {
-			if(i.getDeathDate()!=null) {
+			if(i.getBirthDate()!=null && i.getDeathDate()==null) {
 				Date now=new Date();
-				long diff_time = now.getTime()-i.getDeathDate().getTime();
-				long diff_days = (diff_time/ (1000 * 60 * 60 * 24) );
-				if(diff_days<=30 && diff_days>=0) {
-					fmt.format("|%18s|%26s|%13s|\n", i.getId(),i.getNameNoNull(),i.getDeathDateNoNull());
+				long diff_time = now.getTime()-i.getBirthDate().getTime();
+				long diff_days = (diff_time/ (1000 * 60 * 60 * 24) )% 365;
+				long remain = diff_days%365;
+				if(remain>=335) {
+					fmt.format("|%18s|%26s|%13s|\n", i.getId(),i.getNameNoNull(),i.getBirthDateNoNull());
 				}
 			}
 		}
 		fmt.format("+------------------+--------------------------+-------------+\n");
-		String res="User Story 36 :List of Recently Dead Individuals \n"+fmt.toString();
+		String res="User Story 38 :List of Upcoming Birthdays\n"+fmt.toString();
 	    fmt.close();
 		return res;
 	}
-	public String listSurvivors(ArrayList<Individuals> indList,ArrayList<Children> chilist) {
-		FamilyController fC = new FamilyController();
-		IndividualController iC = new IndividualController();
+	public String listUpcomingAnniversaries(ArrayList<Families> famList) {
 		Formatter fmt = new Formatter();
-		fmt.format("+------------------+--------------------------+-------------+------------------+--------------------------+----------+\n");
-		fmt.format("|%18s|%26s|%13s|%18s|%26s|%10s|\n", "ID","Name","DEATH_DATE","SURVIOUR_ID","SURVIVOR_NAME","RELATION");
-		fmt.format("+------------------+--------------------------+-------------+------------------+--------------------------+----------+\n");
-		for(Individuals i : indList) {
-			if(i.getDeathDate()!=null) {
-				Individuals sp;
-				ArrayList<String> chiNames =new ArrayList<String>();
-				Date now=new Date();
-				long diff_time = now.getTime()-i.getDeathDate().getTime();
-				long diff_days = (diff_time/ (1000 * 60 * 60 * 24) );
-				if(diff_days<=30 && diff_days>=0) {
-					if(i.getFamSId()!=null) {
-						Families famS = fC.get(i.getFamSId());
-						if(famS.getHusbandId().equals(i.getId())) {
-							sp=iC.get(famS.getWifeId());
-						}else {
-							sp = iC.get(famS.getHusbandId());
-						}
-						if(sp!=null && sp.getDeathDate()==null) {
-							fmt.format("|%18s|%26s|%13s|%18s|%26s|%10s|\n", i.getId(),i.getNameNoNull(),i.getDeathDateNoNull(),sp.getId(),sp.getNameNoNull(),"SPOUSE");
-						}
-						for(Children ch: chilist) {
-							if(ch.getFamilyId().equals(famS.getFamiliyId())) {
-								Individuals c = iC.get(ch.getChildId());
-								if(c!=null && c.getDeathDate()==null) {
-									fmt.format("|%18s|%26s|%13s|%18s|%26s|%10s|\n", i.getId(),i.getNameNoNull(),i.getDeathDateNoNull(),c.getId(),c.getNameNoNull(),"CHILD");
-								}
-							}
-						}
+		IndividualController iC = new IndividualController();
+		fmt.format("+----------+--------------------------+--------------------------+-------------+\n");
+		fmt.format("|%10s|%26s|%26s|%13s|\n", "Family_ID","Husband Name","Wife Name","Marraige_Date");
+		fmt.format("+----------+--------------------------+--------------------------+-------------+\n");
+		for(Families fam : famList) {
+			if(fam.getMarraigeDate()!=null && fam.getDivorceDate()==null) {
+				Individuals husb = iC.get(fam.getHusbandId());
+				Individuals wife = iC.get(fam.getWifeId());
+				if(wife!=null && husb!=null && wife.getDeathDate()==null && husb.getDeathDate()==null) {
+					Date now=new Date();
+					long diff_time = now.getTime()-fam.getMarraigeDate().getTime();
+					long diff_days = (diff_time/ (1000 * 60 * 60 * 24) )% 365;
+					if(diff_days>335) {
+						fmt.format("|%10s|%26s|%26s|%13s|\n", fam.getFamiliyId(),husb.getNameNoNull(),wife.getNameNoNull(),fam.getMarraigeDateNoNull());
 					}
 				}
 			}
 		}
-		fmt.format("+------------------+--------------------------+-------------+------------------+--------------------------+----------+\n");
-		String res="User Story 37 :List of Survivors \n"+fmt.toString();
-		fC.exit();
+		fmt.format("+----------+--------------------------+--------------------------+-------------+\n");
+		String res="User Story 39 :List of Upcoming Anniversaries \n"+fmt.toString();
 		iC.exit();
 	    fmt.close();
 		return res;
+		
 	}
