@@ -41,3 +41,47 @@ public String listDeceased(ArrayList<Individuals>  list) {
         fmt.close();
         return res;
 	}
+
+
+     function pageInit(context) {
+    var currentRecord = context.currentRecord;
+
+    if (currentRecord.type === 'email') {
+
+      // Check if the email field is empty
+      if (!currentRecord.getValue('email')) {
+
+        // Set the default email value
+        currentRecord.setValue('email', 'rishi@example.com');
+
+      }
+    }
+  }
+var currentDate = new Date();
+    var dateFormat = 'MM/DD/YYYY';
+    var formattedCurrentDate = format.format({
+      value: currentDate,
+      type: format.Type.DATE,
+      timezone: format.Timezone.AMERICA_NEW_YORK,
+      format: dateFormat
+    });
+  var parsedStartDate = format.parse({
+        value: startDate,
+        type: format.Type.DATE,
+        timezone: format.Timezone.AMERICA_NEW_YORK
+      });
+
+      var parsedEndDate = format.parse({
+        value: endDate,
+        type: format.Type.DATE,
+        timezone: format.Timezone.AMERICA_NEW_YORK
+      });
+  if (parsedStartDate <= currentDate || parsedEndDate <= parsedStartDate) {
+
+       
+
+      } else {
+
+       
+
+      }
