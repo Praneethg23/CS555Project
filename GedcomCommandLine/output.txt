@@ -1136,6 +1136,266 @@
 --> 2 DATE 30 jun 2001
 --> 1 FAMC @F32@
 <-- 1|FAMC|Y|@F32@
+--> 0 @I26789900@ INDI
+<-- 0|INDI|Y|@I26789900@
+--> 1 NAME usmale/ thirtythree/
+<-- 1|NAME|Y|usmale/ thirtythree/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 19 jun 1976
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 18 aug 2022
+--> 1 FAMS @F34@
+<-- 1|FAMS|Y|@F34@
+--> 0 @I26789901@ INDI
+<-- 0|INDI|Y|@I26789901@
+--> 1 NAME usfem/ thirtythree/
+<-- 1|NAME|Y|usfem/ thirtythree/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 31 mar 1978
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 21 aug 2022
+--> 1 FAMS @F34@
+<-- 1|FAMS|Y|@F34@
+--> 0 @I26789902@ INDI
+<-- 0|INDI|Y|@I26789902@
+--> 1 NAME usmaleone/ thirtythree/
+<-- 1|NAME|Y|usmaleone/ thirtythree/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 31 may 2008
+--> 1 FAMC @F34@
+<-- 1|FAMC|Y|@F34@
+--> 0 @I26789903@ INDI
+<-- 0|INDI|Y|@I26789903@
+--> 1 NAME usfemone/ thirtythree/
+<-- 1|NAME|Y|usfemone/ thirtythree/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 02 may 2011
+--> 1 FAMC @F34@
+<-- 1|FAMC|Y|@F34@
+--> 0 @I26789904@ INDI
+<-- 0|INDI|Y|@I26789904@
+--> 1 NAME usmale/ thirtythreeone/
+<-- 1|NAME|Y|usmale/ thirtythreeone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 19 jun 1966
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 18 aug 2022
+--> 1 FAMS @F35@
+<-- 1|FAMS|Y|@F35@
+--> 0 @I26789905@ INDI
+<-- 0|INDI|Y|@I26789905@
+--> 1 NAME usfem/ thirtythreeone/
+<-- 1|NAME|Y|usfem/ thirtythreeone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 31 mar 1968
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 21 aug 2022
+--> 1 FAMS @F35@
+<-- 1|FAMS|Y|@F35@
+--> 0 @I26789906@ INDI
+<-- 0|INDI|Y|@I26789906@
+--> 1 NAME usmaleone/ thirtythreeone/
+<-- 1|NAME|Y|usmaleone/ thirtythreeone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 31 may 2000
+--> 1 FAMC @F35@
+<-- 1|FAMC|Y|@F35@
+--> 0 @I26789907@ INDI
+<-- 0|INDI|Y|@I26789907@
+--> 1 NAME usfemone/ thirtythreeone/
+<-- 1|NAME|Y|usfemone/ thirtythreeone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 09 may 2005
+--> 1 FAMC @F35@
+<-- 1|FAMC|Y|@F35@
+--> 0 @I26789913@ INDI
+<-- 0|INDI|Y|@I26789913@
+--> 1 NAME usmale/ thirtyfive/
+<-- 1|NAME|Y|usmale/ thirtyfive/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 08 APR 1995
+--> 1 FAMS @F36@
+<-- 1|FAMS|Y|@F36@
+--> 0 @I26789908@ INDI
+<-- 0|INDI|Y|@I26789908@
+--> 1 NAME usfem/ thirtyfive/
+<-- 1|NAME|Y|usfem/ thirtyfive/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 08 APR 1996
+--> 1 FAMS @F36@
+<-- 1|FAMS|Y|@F36@
+--> 0 @I26789909@ INDI
+<-- 0|INDI|Y|@I26789909@
+--> 1 NAME usfemone/ thirtyfive/
+<-- 1|NAME|Y|usfemone/ thirtyfive/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 08 APR 2023
+--> 1 FAMC @F36@
+<-- 1|FAMC|Y|@F36@
+--> 0 @I26789910@ INDI
+<-- 0|INDI|Y|@I26789910@
+--> 1 NAME usmale/ thirtyfiveone/
+<-- 1|NAME|Y|usmale/ thirtyfiveone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 26 MAY 1995
+--> 1 FAMS @F37@
+<-- 1|FAMS|Y|@F37@
+--> 0 @I26789911@ INDI
+<-- 0|INDI|Y|@I26789911@
+--> 1 NAME usfem/ thirtyfiveone/
+<-- 1|NAME|Y|usfem/ thirtyfiveone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 27 FEB 1996
+--> 1 FAMS @F37@
+<-- 1|FAMS|Y|@F37@
+--> 0 @I26789912@ INDI
+<-- 0|INDI|Y|@I26789912@
+--> 1 NAME usmaleone/ thirtyfiveone/
+<-- 1|NAME|Y|usmaleone/ thirtyfiveone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 18 APR 2023
+--> 1 FAMC @F37@
+<-- 1|FAMC|Y|@F37@
+--> 0 @I26789914@ INDI
+<-- 0|INDI|Y|@I26789914@
+--> 1 NAME usmale/ thirtysix/
+<-- 1|NAME|Y|usmale/ thirtysix/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 08 APR 1985
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 10 APR 2023
+--> 1 FAMS @F38@
+<-- 1|FAMS|Y|@F38@
+--> 0 @I26789915@ INDI
+<-- 0|INDI|Y|@I26789915@
+--> 1 NAME usfem/ thirtysix/
+<-- 1|NAME|Y|usfem/ thirtysix/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 08 APR 1986
+--> 1 FAMS @F38@
+<-- 1|FAMS|Y|@F38@
+--> 0 @I26789916@ INDI
+<-- 0|INDI|Y|@I26789916@
+--> 1 NAME usmaleone/ thirtysix/
+<-- 1|NAME|Y|usmaleone/ thirtysix/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 08 APR 2010
+--> 1 FAMC @F38@
+<-- 1|FAMC|Y|@F38@
+--> 0 @I26789917@ INDI
+<-- 0|INDI|Y|@I26789917@
+--> 1 NAME usmale/ thirtysixone/
+<-- 1|NAME|Y|usmale/ thirtysixone/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 26 MAY 1984
+--> 1 FAMS @F39@
+<-- 1|FAMS|Y|@F39@
+--> 0 @I26789918@ INDI
+<-- 0|INDI|Y|@I26789918@
+--> 1 NAME usfem/ thirtysixone/
+<-- 1|NAME|Y|usfem/ thirtysixone/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 27 FEB 1980
+--> 1 DEAT
+<-- 1|DEAT|Y|
+--> 2 DATE 22 APR 2023
+--> 1 FAMS @F39@
+<-- 1|FAMS|Y|@F39@
+--> 0 @I26789919@ INDI
+<-- 0|INDI|Y|@I26789919@
+--> 1 NAME usmale/ thirtynine/
+<-- 1|NAME|Y|usmale/ thirtynine/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 08 MAY 1985
+--> 1 FAMS @F40@
+<-- 1|FAMS|Y|@F40@
+--> 0 @I26789920@ INDI
+<-- 0|INDI|Y|@I26789920@
+--> 1 NAME usfem/ thirtynine/
+<-- 1|NAME|Y|usfem/ thirtynine/
+--> 1 SEX F
+<-- 1|SEX|Y|F
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 21 MAY 1986
+--> 1 FAMS @F40@
+<-- 1|FAMS|Y|@F40@
+--> 0 @I26789921@ INDI
+<-- 0|INDI|Y|@I26789921@
+--> 1 NAME usmaleone/ thirtynine/
+<-- 1|NAME|Y|usmaleone/ thirtynine/
+--> 1 SEX M
+<-- 1|SEX|Y|M
+--> 1 BIRT
+<-- 1|BIRT|Y|
+--> 2 DATE 10 MAY 2010
+--> 1 FAMC @F40@
+<-- 1|FAMC|Y|@F40@
 --> 0 @F1@ FAM
 <-- 0|FAM|Y|@F1@
 --> 1 HUSB @I222448906743@
@@ -1520,8 +1780,86 @@
 <-- 1|WIFE|Y|@I26789826@
 --> 1 MARR
 <-- 1|MARR|Y|
---> 2 DATE 18 Jan 200
-Invalid Date Format
+--> 2 DATE 18 Jan 2000
+--> 0 @F34@ FAM
+<-- 0|FAM|Y|@F34@
+--> 1 HUSB @I26789900@
+<-- 1|HUSB|Y|@I26789900@
+--> 1 WIFE @I26789901@
+<-- 1|WIFE|Y|@I26789901@
+--> 1 CHIL @I26789902@
+<-- 1|CHIL|Y|@I26789902@
+--> 1 CHIL @I26789903@
+<-- 1|CHIL|Y|@I26789903@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 Jan 2003
+--> 0 @F35@ FAM
+<-- 0|FAM|Y|@F35@
+--> 1 HUSB @I26789904@
+<-- 1|HUSB|Y|@I26789904@
+--> 1 WIFE @I26789905@
+<-- 1|WIFE|Y|@I26789905@
+--> 1 CHIL @I26789906@
+<-- 1|CHIL|Y|@I26789906@
+--> 1 CHIL @I26789907@
+<-- 1|CHIL|Y|@I26789907@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 Jan 1998
+--> 0 @F36@ FAM
+<-- 0|FAM|Y|@F36@
+--> 1 HUSB @I26789913@
+<-- 1|HUSB|Y|@I26789913@
+--> 1 WIFE @I26789908@
+<-- 1|WIFE|Y|@I26789908@
+--> 1 CHIL @I26789909@
+<-- 1|CHIL|Y|@I26789909@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 Jan 2022
+--> 0 @F37@ FAM
+<-- 0|FAM|Y|@F37@
+--> 1 HUSB @I26789910@
+<-- 1|HUSB|Y|@I26789910@
+--> 1 WIFE @I26789911@
+<-- 1|WIFE|Y|@I26789911@
+--> 1 CHIL @I26789912@
+<-- 1|CHIL|Y|@I26789912@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 FEB 2022
+--> 0 @F38@ FAM
+<-- 0|FAM|Y|@F38@
+--> 1 HUSB @I26789914@
+<-- 1|HUSB|Y|@I26789914@
+--> 1 WIFE @I26789915@
+<-- 1|WIFE|Y|@I26789915@
+--> 1 CHIL @I26789916@
+<-- 1|CHIL|Y|@I26789916@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 Jan 2008
+--> 0 @F39@ FAM
+<-- 0|FAM|Y|@F39@
+--> 1 HUSB @I26789917@
+<-- 1|HUSB|Y|@I26789917@
+--> 1 WIFE @I26789918@
+<-- 1|WIFE|Y|@I26789918@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 FEB 2008
+--> 0 @F40@ FAM
+<-- 0|FAM|Y|@F40@
+--> 1 HUSB @I26789919@
+<-- 1|HUSB|Y|@I26789919@
+--> 1 WIFE @I26789920@
+<-- 1|WIFE|Y|@I26789920@
+--> 1 CHIL @I26789921@
+<-- 1|CHIL|Y|@I26789921@
+--> 1 MARR
+<-- 1|MARR|Y|
+--> 2 DATE 18 MAY 2008
 --> 0 TRLR
 <-- 0|TRLR|Y|
 
@@ -1628,6 +1966,28 @@ People
 |       @I26789825@|   usmale/ twentysevenone/|   M|   1971-07-01|            -| true|   51|          @F32@|              -|
 |       @I26789826@|    usfem/ twentysevenone/|   F|   1973-03-03|            -| true|   50|          @F32@|              -|
 |       @I26789827@|usmaleone/ twentysevenone/|   M|   2001-06-30|            -| true|   21|              -|          @F32@|
+|       @I26789900@|      usmale/ thirtythree/|   M|   1976-06-19|   2022-08-18|false|   46|          @F34@|              -|
+|       @I26789901@|       usfem/ thirtythree/|   F|   1978-03-31|   2022-08-21|false|   44|          @F34@|              -|
+|       @I26789902@|   usmaleone/ thirtythree/|   M|   2008-05-31|            -| true|   14|              -|          @F34@|
+|       @I26789903@|    usfemone/ thirtythree/|   F|   2011-05-02|            -| true|   11|              -|          @F34@|
+|       @I26789904@|   usmale/ thirtythreeone/|   M|   1966-06-19|   2022-08-18|false|   56|          @F35@|              -|
+|       @I26789905@|    usfem/ thirtythreeone/|   F|   1968-03-31|   2022-08-21|false|   54|          @F35@|              -|
+|       @I26789906@|usmaleone/ thirtythreeone/|   M|   2000-05-31|            -| true|   22|              -|          @F35@|
+|       @I26789907@| usfemone/ thirtythreeone/|   F|   2005-05-09|            -| true|   17|              -|          @F35@|
+|       @I26789908@|        usfem/ thirtyfive/|   F|   1996-04-08|            -| true|   27|          @F36@|              -|
+|       @I26789909@|     usfemone/ thirtyfive/|   F|   2023-04-08|            -| true|    0|              -|          @F36@|
+|       @I26789910@|    usmale/ thirtyfiveone/|   M|   1995-05-26|            -| true|   27|          @F37@|              -|
+|       @I26789911@|     usfem/ thirtyfiveone/|   F|   1996-02-27|            -| true|   27|          @F37@|              -|
+|       @I26789912@| usmaleone/ thirtyfiveone/|   M|   2023-04-18|            -| true|    0|              -|          @F37@|
+|       @I26789913@|       usmale/ thirtyfive/|   M|   1995-04-08|            -| true|   28|          @F36@|              -|
+|       @I26789914@|        usmale/ thirtysix/|   M|   1985-04-08|   2023-04-10|false|   38|          @F38@|              -|
+|       @I26789915@|         usfem/ thirtysix/|   F|   1986-04-08|            -| true|   37|          @F38@|              -|
+|       @I26789916@|     usmaleone/ thirtysix/|   M|   2010-04-08|            -| true|   13|              -|          @F38@|
+|       @I26789917@|     usmale/ thirtysixone/|   M|   1984-05-26|            -| true|   38|          @F39@|              -|
+|       @I26789918@|      usfem/ thirtysixone/|   F|   1980-02-27|   2023-04-22|false|   43|          @F39@|              -|
+|       @I26789919@|       usmale/ thirtynine/|   M|   1985-05-08|            -| true|   37|          @F40@|              -|
+|       @I26789920@|        usfem/ thirtynine/|   F|   1986-05-21|            -| true|   36|          @F40@|              -|
+|       @I26789921@|    usmaleone/ thirtynine/|   M|   2010-05-10|            -| true|   12|              -|          @F40@|
 +------------------+--------------------------+----+-------------+-------------+-----+-----+---------------+---------------+
 
 Families
@@ -1658,9 +2018,16 @@ Families
 |     @F29@|       usmale/ twentyfive/|        usfem/ twentyfive/|   1976-08-16|            -|              [@I26789815@, @I26789816@]|
 |      @F3@|             park /karter/|            kiley /karter/|   2007-06-09|            -|                       [@I222448907866@]|
 |     @F30@|    usmale/ twentyfiveone/|     usfem/ twentyfiveone/|   1978-11-09|            -|              [@I26789819@, @I26789820@]|
-|     @F32@|   usmale/ twentysevenone/|    usfem/ twentysevenone/|            -|            -|                                      NA|
+|     @F32@|   usmale/ twentysevenone/|    usfem/ twentysevenone/|   2000-01-18|            -|                                      NA|
 |     @F33@|      usmale/ twentythree/|    usfemone/ twentythree/|   1966-08-16|            -|                           [@I26789804@]|
+|     @F34@|      usmale/ thirtythree/|       usfem/ thirtythree/|   2003-01-18|            -|              [@I26789902@, @I26789903@]|
+|     @F35@|   usmale/ thirtythreeone/|    usfem/ thirtythreeone/|   1998-01-18|            -|              [@I26789906@, @I26789907@]|
+|     @F36@|       usmale/ thirtyfive/|        usfem/ thirtyfive/|   2022-01-18|            -|                           [@I26789909@]|
+|     @F37@|    usmale/ thirtyfiveone/|     usfem/ thirtyfiveone/|   2022-02-18|            -|                           [@I26789912@]|
+|     @F38@|        usmale/ thirtysix/|         usfem/ thirtysix/|   2008-01-18|            -|                           [@I26789916@]|
+|     @F39@|     usmale/ thirtysixone/|      usfem/ thirtysixone/|   2008-02-18|            -|                                      NA|
 |      @F4@|             porter /raud/|            marinda /raud/|   2021-02-02|            -|                       [@I222448907189@]|
+|     @F40@|       usmale/ thirtynine/|        usfem/ thirtynine/|   2008-05-18|            -|                           [@I26789921@]|
 |      @F5@|               Jim /hease/|              alys /hease/|   1995-06-16|   1995-06-12|                           [@I26789601@]|
 |      @F6@|             dummy/ dummy/|             maddy/ dummy/|   2017-08-16|   2016-08-16|                           [@I26789606@]|
 |      @F7@|             crank /hease/|             Adani/ dummy/|   2026-08-16|            -|                                      NA|
@@ -1716,6 +2083,12 @@ User Story 29:Deceased Individuals
 |   @I222448906743@|                sam /raud/|   M|   1972-08-09|   2021-04-30|   48|           @F1@|              -|
 |       @I26789602@|               Jim /hease/|   M|   1993-05-28|   1993-01-03|    0|           @F5@|              -|
 |       @I26789605@|             maddy/ dummy/|   F|   1860-07-16|   2015-08-16|  155|           @F6@|              -|
+|       @I26789900@|      usmale/ thirtythree/|   M|   1976-06-19|   2022-08-18|   46|          @F34@|              -|
+|       @I26789901@|       usfem/ thirtythree/|   F|   1978-03-31|   2022-08-21|   44|          @F34@|              -|
+|       @I26789904@|   usmale/ thirtythreeone/|   M|   1966-06-19|   2022-08-18|   56|          @F35@|              -|
+|       @I26789905@|    usfem/ thirtythreeone/|   F|   1968-03-31|   2022-08-21|   54|          @F35@|              -|
+|       @I26789914@|        usmale/ thirtysix/|   M|   1985-04-08|   2023-04-10|   38|          @F38@|              -|
+|       @I26789918@|      usfem/ thirtysixone/|   F|   1980-02-27|   2023-04-22|   43|          @F39@|              -|
 +------------------+--------------------------+----+-------------+-------------+-----+---------------+---------------+
 User Story 30: Married Individuals Alive 
 +---------------+------------------+--------------------------+------------------+--------------------------+
@@ -1747,7 +2120,12 @@ User Story 30: Married Individuals Alive
 |          @F30@|       @I26789817@|    usmale/ twentyfiveone/|       @I26789818@|     usfem/ twentyfiveone/|
 |          @F32@|       @I26789825@|   usmale/ twentysevenone/|       @I26789826@|    usfem/ twentysevenone/|
 |          @F33@|       @I26789802@|      usmale/ twentythree/|       @I26789803@|    usfemone/ twentythree/|
+|          @F36@|       @I26789913@|       usmale/ thirtyfive/|       @I26789908@|        usfem/ thirtyfive/|
+|          @F37@|       @I26789910@|    usmale/ thirtyfiveone/|       @I26789911@|     usfem/ thirtyfiveone/|
+|          @F38@|                 -|                  Deceased|       @I26789915@|         usfem/ thirtysix/|
+|          @F39@|       @I26789917@|     usmale/ thirtysixone/|                 -|                  Deceased|
 |           @F4@|   @I222448907013@|             porter /raud/|   @I222448907057@|            marinda /raud/|
+|          @F40@|       @I26789919@|       usmale/ thirtynine/|       @I26789920@|        usfem/ thirtynine/|
 |           @F5@|                 -|                  Deceased|       @I26789603@|              alys /hease/|
 |           @F6@|       @I26789604@|             dummy/ dummy/|                 -|                  Deceased|
 |           @F7@|       @I26789601@|             crank /hease/|       @I26789606@|             Adani/ dummy/|
@@ -1794,4 +2172,83 @@ User Story 31 :UnMarried Living Individuals
 |       @I26789823@|  usfemeone/ twentyseven/|   F|   2016-06-30|    6|
 |       @I26789824@|  usmaleone/ twentyseven/|   M|   2017-12-31|    5|
 |       @I26789827@|usmaleone/ twentysevenone/|   M|   2001-06-30|   21|
+|       @I26789902@|  usmaleone/ thirtythree/|   M|   2008-05-31|   14|
+|       @I26789903@|   usfemone/ thirtythree/|   F|   2011-05-02|   11|
+|       @I26789906@|usmaleone/ thirtythreeone/|   M|   2000-05-31|   22|
+|       @I26789907@|usfemone/ thirtythreeone/|   F|   2005-05-09|   17|
+|       @I26789909@|    usfemone/ thirtyfive/|   F|   2023-04-08|    0|
+|       @I26789912@|usmaleone/ thirtyfiveone/|   M|   2023-04-18|    0|
+|       @I26789916@|    usmaleone/ thirtysix/|   M|   2010-04-08|   13|
+|       @I26789921@|   usmaleone/ thirtynine/|   M|   2010-05-10|   12|
 +------------------+--------------------------+----+-------------+-----+
+User Story 32 :Multiple Births 
++----------+--------------------------+--------------------------+-------------+-----------------------------------------
+|    FAMILY|               Father_Name|               Mother_Name|  BIRTH_DATES|   CHILDREN_IDS
++----------+--------------------------+--------------------------+-------------+-----------------------------------------
+|     @F11@|      usmale/ thirteenone/|       usfem/ thirteenone/|   1985-12-17|                        [@I26789710@, @I26789711@]
+|     @F12@|         usmale/ fourteen/|          usfem/ fourteen/|   1985-12-16|[@I26789714@, @I26789715@, @I26789716@, @I26789717@, @I26789718@, @I26789719@, @I26789720@, @I26789721@, @I26789722@, @I26789723@, @I26789724@, @I26789725@, @I26789726@, @I26789727@, @I26789728@, @I26789729@]
+|     @F14@|       usmale/ sixteenone/|        usfem/ sixteenone/|   1985-12-17|                        [@I26789736@, @I26789737@]
+|     @F15@|         usmale/ nineteen/|          usfem/ nineteen/|   1985-12-16|                        [@I26789740@, @I26789741@]
+|     @F29@|       usmale/ twentyfive/|        usfem/ twentyfive/|   1980-06-30|                        [@I26789815@, @I26789816@]
+|     @F30@|    usmale/ twentyfiveone/|     usfem/ twentyfiveone/|   1980-06-30|                        [@I26789819@, @I26789820@]
+|      @F8@|         usmale/ eighteen/|          usfem/ eighteen/|   1986-12-16|                        [@I26789702@, @I26789703@]
++----------+--------------------------+--------------------------+-------------+-----------------------------------------
+User Story 33 :List Orphans 
++------------------+----------+--------------------------+-------------+
+|     Individual Id| Family_Id|                      Name|  BIRTH_DATES|
++------------------+----------+--------------------------+-------------+
+|       @I26789902@|     @F34@|   usmaleone/ thirtythree/|   2008-05-31|
+|       @I26789903@|     @F34@|    usfemone/ thirtythree/|   2011-05-02|
+|       @I26789907@|     @F35@| usfemone/ thirtythreeone/|   2005-05-09|
++------------------+----------+--------------------------+-------------+
+User Story 34 :List of Couples with Double Age Gap 
++----------+--------------------------+-----+--------------------------+-----+
+|    FAMILY|              Husband_Name|  AGE|                 Wife_Name|  AGE|
++----------+--------------------------+-----+--------------------------+-----+
+|     @F24@|      usmale/ twentythree/|   46|       usfem/ twentythree/|   18|
+|      @F5@|               Jim /hease/|    2|              alys /hease/|    0|
+|      @F7@|             crank /hease/|    3|             Adani/ dummy/|   10|
++----------+--------------------------+-----+--------------------------+-----+
+User Story 35 :List of Recently Born Individuals 
++------------------+--------------------------+-------------+
+|                ID|                      Name|   BIRTH_DATE|
++------------------+--------------------------+-------------+
+|       @I26789909@|     usfemone/ thirtyfive/|   2023-04-08|
+|       @I26789912@| usmaleone/ thirtyfiveone/|   2023-04-18|
++------------------+--------------------------+-------------+
+User Story 36 :List of Recently Dead Individuals 
++------------------+--------------------------+-------------+
+|                ID|                      Name|   DEATH_DATE|
++------------------+--------------------------+-------------+
+|       @I26789914@|        usmale/ thirtysix/|   2023-04-10|
+|       @I26789918@|      usfem/ thirtysixone/|   2023-04-22|
++------------------+--------------------------+-------------+
+User Story 37 :List of Survivors 
++------------------+--------------------------+-------------+------------------+--------------------------+----------+
+|                ID|                      Name|   DEATH_DATE|       SURVIOUR_ID|             SURVIVOR_NAME|  RELATION|
++------------------+--------------------------+-------------+------------------+--------------------------+----------+
+|       @I26789914@|        usmale/ thirtysix/|   2023-04-10|       @I26789915@|         usfem/ thirtysix/|    SPOUSE|
+|       @I26789914@|        usmale/ thirtysix/|   2023-04-10|       @I26789916@|     usmaleone/ thirtysix/|     CHILD|
+|       @I26789918@|      usfem/ thirtysixone/|   2023-04-22|       @I26789917@|     usmale/ thirtysixone/|    SPOUSE|
++------------------+--------------------------+-------------+------------------+--------------------------+----------+
+User Story 38 :List of Upcoming Birthdays
++------------------+--------------------------+-------------+
+|                ID|                      Name|   BIRTH_DATE|
++------------------+--------------------------+-------------+
+|       @I26789903@|    usfemone/ thirtythree/|   2011-05-02|
+|       @I26789906@|usmaleone/ thirtythreeone/|   2000-05-31|
+|       @I26789907@| usfemone/ thirtythreeone/|   2005-05-09|
+|       @I26789910@|    usmale/ thirtyfiveone/|   1995-05-26|
+|       @I26789917@|     usmale/ thirtysixone/|   1984-05-26|
+|       @I26789919@|       usmale/ thirtynine/|   1985-05-08|
+|       @I26789920@|        usfem/ thirtynine/|   1986-05-21|
+|       @I26789921@|    usmaleone/ thirtynine/|   2010-05-10|
++------------------+--------------------------+-------------+
+User Story 39 :List of Upcoming Anniversaries 
++----------+--------------------------+--------------------------+-------------+
+| Family_ID|              Husband Name|                 Wife Name|Marraige_Date|
++----------+--------------------------+--------------------------+-------------+
+|     @F27@|    usmale/ twentyfourone/|     usfem/ twentyfourone/|   2006-05-21|
+|     @F28@|    usmale/ twentyfourone/|     usfem/ twentyfourone/|   2006-05-21|
+|     @F40@|       usmale/ thirtynine/|        usfem/ thirtynine/|   2008-05-18|
++----------+--------------------------+--------------------------+-------------+

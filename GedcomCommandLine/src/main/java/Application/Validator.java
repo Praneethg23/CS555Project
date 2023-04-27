@@ -141,6 +141,14 @@ public class Validator {
 		sb.append(us.listDeceased(list1));
 		sb.append(us.listMarried(list2));
 		sb.append(us.listUnMarried(list2));
+		sb.append(us.listMultipleBirths(list2, list));
+		sb.append(us.listOrphans(list1));
+		sb.append(us.listCoupleDoubleAges(list2));
+		sb.append(us.listRecentBirths(list1));
+		sb.append(us.listRecentDeaths(list1));
+		sb.append(us.listSurvivors(list1, list));
+		sb.append(us.listUpcomingBirthDays(list1));
+		sb.append(us.listUpcomingAnniversaries(list2));
 	}
 
 }
